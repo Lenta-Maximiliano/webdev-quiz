@@ -1,0 +1,3902 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la etiqueta semántica adecuada para el encabezado principal de una página?",
+    "options": [
+      "<head>",
+      "<header>",
+      "<section>",
+      "<div>"
+    ],
+    "answer": 1,
+    "explanation": "<header> se usa para el bloque de encabezado de una sección o página; <h1> es el título pero <header> es el contenedor semántico."
+  },
+  {
+    "id": 2,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo alt en <img> es importante para accesibilidad.",
+    "answer": true,
+    "explanation": "alt provee texto alternativo para lectores de pantalla y para cuando la imagen no carga."
+  },
+  {
+    "id": 3,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS controla el espacio exterior entre elementos?",
+    "options": [
+      "padding",
+      "margin",
+      "border",
+      "gap"
+    ],
+    "answer": 1,
+    "explanation": "margin es el espacio exterior alrededor del elemento; padding es el espacio interno."
+  },
+  {
+    "id": 4,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad convierte un contenedor en Flexbox?",
+    "options": [
+      "display:block",
+      "display:flex",
+      "display:inline",
+      "position:flex"
+    ],
+    "answer": 1,
+    "explanation": "display:flex activa el modelo Flexbox para ese contenedor."
+  },
+  {
+    "id": 5,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué unidad CSS es relativa al tamaño de la fuente raíz (root)?",
+    "options": [
+      "em",
+      "px",
+      "rem",
+      "vw"
+    ],
+    "answer": 2,
+    "explanation": "rem es relativa al font-size del elemento root (html)."
+  },
+  {
+    "id": 6,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué etiqueta semántica se usa para la navegación principal del sitio?",
+    "options": [
+      "<nav>",
+      "<menu>",
+      "<ul>",
+      "<links>"
+    ],
+    "answer": 0,
+    "explanation": "<nav> indica bloques de enlaces de navegación (principal o secundario)."
+  },
+  {
+    "id": 7,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es el propósito de la propiedad box-sizing: border-box;?",
+    "options": [
+      "Incluye padding y border en width/height",
+      "Elimina margin",
+      "Hace elementos inline",
+      "Transforma a flex items"
+    ],
+    "answer": 0,
+    "explanation": "Con border-box el padding y border se incluyen en las dimensiones declaradas, simplificando el cálculo de tamaños."
+  },
+  {
+    "id": 8,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla la alineación en el eje principal en Flexbox?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "flex-direction",
+      "order"
+    ],
+    "answer": 1,
+    "explanation": "justify-content alinea los ítems a lo largo del eje principal (centrado, espacio-between, etc.)."
+  },
+  {
+    "id": 9,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué hacen las media queries en CSS?",
+    "options": [
+      "Aplican estilos condicionales según ancho/condiciones",
+      "Cambian HTML",
+      "Permiten usar JS",
+      "Optimiza imágenes"
+    ],
+    "answer": 0,
+    "explanation": "Media queries permiten adaptar estilos a condiciones (ancho, orientación, resolución) para diseño responsivo."
+  },
+  {
+    "id": 10,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la diferencia entre display: none y visibility: hidden?",
+    "options": [
+      "Ninguna",
+      "display:none remueve del flujo; visibility:hidden lo oculta pero mantiene espacio",
+      "visibility:hidden remueve del flujo",
+      "display:none solo oculta visualmente"
+    ],
+    "answer": 1,
+    "explanation": "display:none elimina el elemento del flujo del documento; visibility:hidden lo oculta pero conserva su espacio en el layout."
+  },
+  {
+    "id": 11,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo lang en <html> ayuda a accesibilidad y SEO.",
+    "answer": true,
+    "explanation": "lang informa el idioma del documento a lectores de pantalla y motores de búsqueda."
+  },
+  {
+    "id": 12,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad se usa para controlar el espacio interior (entre contenido y borde)?",
+    "options": [
+      "margin",
+      "padding",
+      "border-spacing",
+      "gap"
+    ],
+    "answer": 1,
+    "explanation": "padding controla el espacio interno; margin controla el espacio externo."
+  },
+  {
+    "id": 13,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cómo se incluye un CSS externo en HTML?",
+    "options": [
+      "<link rel=\"stylesheet\" href=\"...\">",
+      "<style src=\"...\">",
+      "<css src=\"...\">",
+      "<script src=\"...\">"
+    ],
+    "answer": 0,
+    "explanation": "La forma estándar es <link rel=\"stylesheet\" href=\"...\"> dentro del <head>."
+  },
+  {
+    "id": 14,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Usar tablas para maquetar un layout es la práctica recomendada hoy.",
+    "answer": false,
+    "explanation": "Las tablas son para datos tabulares; para layouts modernos se usa Flexbox o Grid."
+  },
+  {
+    "id": 15,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS controla el espacio entre filas y columnas en Grid?",
+    "options": [
+      "grid-gap",
+      "gap",
+      "column-gap",
+      "grid-column-gap"
+    ],
+    "answer": 1,
+    "explanation": "gap (y grid-gap) controla el espacio entre filas y columnas en Grid y Flexbox."
+  },
+  {
+    "id": 16,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué etiqueta se usa para marcar un bloque de cita larga?",
+    "options": [
+      "<q>",
+      "<blockquote>",
+      "<cite>",
+      "<span>"
+    ],
+    "answer": 1,
+    "explanation": "<blockquote> se usa para citas en bloque (largas); <q> es para citas en línea."
+  },
+  {
+    "id": 17,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Los atributos data-* permiten almacenar información personalizada en el DOM.",
+    "answer": true,
+    "explanation": "data-* es útil para guardar metadatos accesibles vía element.dataset en JavaScript."
+  },
+  {
+    "id": 18,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la forma correcta de centrar texto en un contenedor?",
+    "options": [
+      "margin: 0 auto;",
+      "text-align: center;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "answer": 1,
+    "explanation": "text-align: center; en el contenedor centra elementos inline y texto."
+  },
+  {
+    "id": 19,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué elemento es semánticamente apropiado para el contenido principal de la página?",
+    "options": [
+      "<main>",
+      "<section>",
+      "<div>",
+      "<article>"
+    ],
+    "answer": 0,
+    "explanation": "<main> representa el contenido principal único de la página (no se debe repetir)."
+  },
+  {
+    "id": 20,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál propiedad controla el orden visual de los elementos flexibles sin cambiar el DOM?",
+    "options": [
+      "z-index",
+      "order",
+      "flex-order",
+      "position"
+    ],
+    "answer": 1,
+    "explanation": "order altera el orden de los flex items en el layout sin cambiar el DOM."
+  },
+  {
+    "id": 21,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo rel=\"noopener noreferrer\" se recomienda cuando se usa target=\"_blank\".",
+    "answer": true,
+    "explanation": "previene que la nueva pestaña acceda a window.opener (seguridad) y evita posibles ataques de tabnabbing."
+  },
+  {
+    "id": 22,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS permite controlar la relación de aspecto en imágenes responsivas?",
+    "options": [
+      "object-fit",
+      "aspect-ratio",
+      "image-rendering",
+      "fit-image"
+    ],
+    "answer": 1,
+    "explanation": "aspect-ratio define la relación de aspecto preferida para un elemento (útil en layouts responsivos)."
+  },
+  {
+    "id": 23,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la mejor práctica para fuentes escalables y accesibles?",
+    "options": [
+      "Usar px fijos",
+      "Usar rem/em y diseño mobile-first",
+      "Usar tablas",
+      "Usar imágenes de texto"
+    ],
+    "answer": 1,
+    "explanation": "usar unidades relativas (rem/em) y enfoque mobile-first mejora accesibilidad y escalado."
+  },
+  {
+    "id": 24,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué atributo permite especificar distintas imágenes para distintos tamaños/resoluciones?",
+    "options": [
+      "srcset",
+      "sizes",
+      "picture + source",
+      "Todas las anteriores"
+    ],
+    "answer": 3,
+    "explanation": "srcset, sizes y el elemento picture con source permiten servir imágenes adaptativas según condiciones."
+  },
+  {
+    "id": 25,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El elemento <figure> se usa para agrupar una imagen y su pie de foto <figcaption>.",
+    "answer": true,
+    "explanation": "<figure> y <figcaption> son semánticos para imágenes con leyenda o ejemplos."
+  },
+  {
+    "id": 26,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad evita que un elemento se desborde y muestre una barra de scroll?",
+    "options": [
+      "overflow: hidden",
+      "overflow: visible",
+      "display: none",
+      "position: absolute"
+    ],
+    "answer": 0,
+    "explanation": "overflow: hidden oculta el contenido que excede el contenedor (aunque puede causar pérdida de accesibilidad si no se maneja)."
+  },
+  {
+    "id": 27,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la forma recomendada de centrar verticalmente un elemento en una caja de altura conocida usando Flexbox?",
+    "options": [
+      "align-items: center;",
+      "justify-content: center;",
+      "text-align: center;",
+      "vertical-align: middle;"
+    ],
+    "answer": 0,
+    "explanation": "align-items:center centra los flex items a lo largo del eje cruzado (vertical si el eje principal es horizontal)."
+  },
+  {
+    "id": 28,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo aria-label puede mejorar la accesibilidad de elementos interactivos sin texto visible.",
+    "answer": true,
+    "explanation": "aria-label provee una etiqueta accesible para tecnologías asistivas cuando no hay texto visible."
+  },
+  {
+    "id": 29,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS controla la transparencia (opacidad) de un elemento?",
+    "options": [
+      "opacity",
+      "transparent",
+      "visibility",
+      "alpha"
+    ],
+    "answer": 0,
+    "explanation": "opacity establece la opacidad del elemento entre 0 (transparente) y 1 (opaco)."
+  },
+  {
+    "id": 30,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "Para optimizar tiempos de carga, ¿qué técnica es útil en imágenes?",
+    "options": [
+      "Usar imágenes sin comprimir",
+      "Servir imágenes con formatos modernos (webp) y srcset",
+      "Usar imágenes gigantes y escalarlas en CSS",
+      "Incluir imágenes como base64 por defecto"
+    ],
+    "answer": 1,
+    "explanation": "Servir imágenes optimizadas y adaptativas (formatos modernos, srcset) mejora rendimiento y ahorro de ancho de banda."
+  },
+  {
+    "id": 31,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El elemento <label> asociado a un <input> mejora la usabilidad y accesibilidad.",
+    "answer": true,
+    "explanation": "El uso correcto de <label for=\"id\"> facilita el foco y la accesibilidad para lectores de pantalla."
+  },
+  {
+    "id": 32,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS controla el espaciado entre columnas de texto?",
+    "options": [
+      "column-gap",
+      "gap",
+      "grid-gap",
+      "text-gap"
+    ],
+    "answer": 0,
+    "explanation": "column-gap controla el espaciado entre columnas cuando se usa multi-column layout."
+  },
+  {
+    "id": 33,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es el selector CSS correcto para seleccionar un elemento con id=\"main\"?",
+    "options": [
+      ".main",
+      "#main",
+      "main",
+      "id(main)"
+    ],
+    "answer": 1,
+    "explanation": "El selector #id selecciona el elemento con ese id."
+  },
+  {
+    "id": 34,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS permite cambiar el comportamiento de cajas en modelos antiguos y nuevos?",
+    "options": [
+      "display",
+      "box-sizing",
+      "position",
+      "flex"
+    ],
+    "answer": 1,
+    "explanation": "box-sizing determina cómo se calculan width/height respecto a padding y border."
+  },
+  {
+    "id": 35,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo tabindex=\"-1\" permite que un elemento sea enfocable programáticamente pero no por tab.",
+    "answer": true,
+    "explanation": "tabindex=\"-1\" hace foco programático (element.focus()) pero no incluye el elemento en el orden de tabulación."
+  },
+  {
+    "id": 36,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la forma recomendada para centrar un bloque con ancho fijo horizontalmente?",
+    "options": [
+      "margin: 0 auto;",
+      "text-align: center;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "answer": 0,
+    "explanation": "margin: 0 auto; centra bloques con width definido."
+  },
+  {
+    "id": 37,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS se usa para que imágenes cubran su contenedor sin distorsionar?",
+    "options": [
+      "background-size: contain",
+      "background-size: cover",
+      "object-fit: cover",
+      "both b and c"
+    ],
+    "answer": 3,
+    "explanation": "background-size: cover y object-fit: cover permiten cubrir contenedores manteniendo aspecto."
+  },
+  {
+    "id": 38,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo aria-hidden=\"true\" hace que el elemento no sea leído por lectores de pantalla.",
+    "answer": true,
+    "explanation": "aria-hidden oculta el elemento a las tecnologías de asistencia."
+  },
+  {
+    "id": 39,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla si las cajas flex pueden envolver su contenido a la siguiente línea?",
+    "options": [
+      "flex-wrap",
+      "wrap",
+      "flex-flow",
+      "flex-direction"
+    ],
+    "answer": 0,
+    "explanation": "flex-wrap controla si los flex items deben envolverse cuando no caben en una sola línea."
+  },
+  {
+    "id": 40,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué elemento HTML se emplea para listar elementos sin orden?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<list>",
+      "<dl>"
+    ],
+    "answer": 1,
+    "explanation": "<ul> crea listas sin orden; <ol> listas ordenadas numeradas."
+  },
+  {
+    "id": 41,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo crossorigin en <script> o <link> controla cómo se manejan las credenciales en requests CORS.",
+    "answer": true,
+    "explanation": "crossorigin establece si se envían credenciales TLS/HTTP en peticiones para recursos externos."
+  },
+  {
+    "id": 42,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS se usa para crear sombras en cajas?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "shadow",
+      "filter: shadow"
+    ],
+    "answer": 1,
+    "explanation": "box-shadow aplica sombra a cajas; text-shadow es para texto."
+  },
+  {
+    "id": 43,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la etiqueta correcta para el pie de página de un documento o sección?",
+    "options": [
+      "<footer>",
+      "<end>",
+      "<bottom>",
+      "<section>"
+    ],
+    "answer": 0,
+    "explanation": "<footer> representa el pie de página de un documento o sección."
+  },
+  {
+    "id": 44,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El uso de <main> solo debe aparecer una vez en la página.",
+    "answer": true,
+    "explanation": "Solo debe existir un <main> representando el contenido principal único de la página."
+  },
+  {
+    "id": 45,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla el espacio entre letras?",
+    "options": [
+      "line-height",
+      "letter-spacing",
+      "word-spacing",
+      "text-indent"
+    ],
+    "answer": 1,
+    "explanation": "letter-spacing ajusta el espacio entre caracteres."
+  },
+  {
+    "id": 46,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es el propósito de la etiqueta <meta name=\"viewport\">?",
+    "options": [
+      "Controlar la apariencia en dispositivos móviles",
+      "Añadir metadata para SEO",
+      "Incluir scripts externos",
+      "Establecer estilos"
+    ],
+    "answer": 0,
+    "explanation": "meta viewport controla cómo el navegador en móviles escala y muestra la página (width=device-width, initial-scale=1)."
+  },
+  {
+    "id": 47,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo srcset permite servir diferentes recursos según la resolución o tamaño.",
+    "answer": true,
+    "explanation": "srcset y picture permiten servir imágenes adaptativas según condiciones como densidad de pantalla y ancho."
+  },
+  {
+    "id": 48,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad puede prevenir que un texto se rompa automáticamente en palabras largas?",
+    "options": [
+      "word-break: break-all",
+      "overflow-wrap: break-word",
+      "white-space: nowrap",
+      "text-wrap: none"
+    ],
+    "answer": 2,
+    "explanation": "white-space: nowrap evita saltos de línea automáticos; overflow-wrap y word-break controlan comportamiento del corte de palabra."
+  },
+  {
+    "id": 49,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué técnica ayuda a mejorar el rendimiento de la pintura inicial (critical rendering)?",
+    "options": [
+      "Incluir CSS crítico en el head y posponer el resto",
+      "Cargar todo el CSS en línea al final",
+      "Usar imágenes grandes",
+      "Evitar usar CDN"
+    ],
+    "answer": 0,
+    "explanation": "Incluir CSS crítico inline permite renderizar la parte visible rápidamente; el resto puede cargarse de forma diferida."
+  },
+  {
+    "id": 50,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo role puede usarse para mejorar la semántica y accesibilidad cuando no existe un elemento semántico nativo.",
+    "answer": true,
+    "explanation": "role proporciona información sobre la función del elemento a tecnologías de asistencia."
+  },
+  {
+    "id": 51,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la diferencia entre em y rem?",
+    "options": [
+      "em es relativo al parent; rem al root",
+      "em es fijo; rem es relativo",
+      "em es para márgenes; rem para fuentes",
+      "No hay diferencia"
+    ],
+    "answer": 0,
+    "explanation": "em es relativo al font-size del elemento padre; rem es relativo al font-size del root (html)."
+  },
+  {
+    "id": 52,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla la dirección del eje principal en Flexbox?",
+    "options": [
+      "flex-direction",
+      "flex-flow",
+      "direction",
+      "align-content"
+    ],
+    "answer": 0,
+    "explanation": "flex-direction define si el eje principal es row, column, row-reverse, etc."
+  },
+  {
+    "id": 53,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El uso de <section> requiere un encabezado <h*> dentro para ser semánticamente correcto.",
+    "answer": false,
+    "explanation": "Aunque recomendable, no es obligatorio; sin embargo, sections suelen llevar un heading para mayor semántica."
+  },
+  {
+    "id": 54,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la forma correcta de esconder contenido visualmente pero mantenerlo accesible para lectores de pantalla?",
+    "options": [
+      "display: none;",
+      "visibility: hidden;",
+      "usar técnicas CSS específicas (offscreen) o aria-hidden según caso",
+      "opacity: 0"
+    ],
+    "answer": 2,
+    "explanation": "Hay técnicas CSS (e.g. position absolute + clip) para ocultar visualmente manteniendo accesible; aria-hidden lo oculta de AT."
+  },
+  {
+    "id": 55,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué valor de display crea un contexto de formato de bloque para elementos hijos (similar a contenedor)?",
+    "options": [
+      "display: inline",
+      "display: block",
+      "display: inline-block",
+      "display: contents"
+    ],
+    "answer": 1,
+    "explanation": "display:block hace que el elemento ocupe todo el ancho y genere un bloque de formato."
+  },
+  {
+    "id": 56,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Usar rem facilita que los usuarios escalen la interfaz aumentando el tamaño raíz del navegador.",
+    "answer": true,
+    "explanation": "rem permite que cambios en el tamaño raíz afecten proporcionalmente al layout, mejorando accesibilidad."
+  },
+  {
+    "id": 57,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS se usa para ordenar en z-axis (superposición)?",
+    "options": [
+      "z-index",
+      "stack-order",
+      "order",
+      "layer"
+    ],
+    "answer": 0,
+    "explanation": "z-index controla la posición en el eje z para elementos posicionados."
+  },
+  {
+    "id": 58,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es el propósito de <picture> con <source>?",
+    "options": [
+      "Agrupar imágenes para galerías",
+      "Proveer imágenes alternativas según condiciones (media, type)",
+      "Crear sprites",
+      "Compatibilidad con SVG"
+    ],
+    "answer": 1,
+    "explanation": "picture + source permite servir diferentes recursos (formatos o tamaños) según media queries o type."
+  },
+  {
+    "id": 59,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo required en inputs es respetado por todos los navegadores y nunca debe validarse en el servidor.",
+    "answer": false,
+    "explanation": "El required es útil en cliente pero la validación en servidor siempre es necesaria por seguridad."
+  },
+  {
+    "id": 60,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla el alto de línea entre filas de texto?",
+    "options": [
+      "letter-spacing",
+      "line-height",
+      "text-indent",
+      "word-spacing"
+    ],
+    "answer": 1,
+    "explanation": "line-height controla la altura de línea, afectando legibilidad."
+  },
+  {
+    "id": 61,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la forma semántica de marcar el pie de una entrada de blog o artículo?",
+    "options": [
+      "<footer>",
+      "<aside>",
+      "<section>",
+      "<div>"
+    ],
+    "answer": 0,
+    "explanation": "<footer> dentro de un article se usa para metadatos o pie de la entrada."
+  },
+  {
+    "id": 62,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo crossorigin solo aplica a peticiones CORS y recursos externos.",
+    "answer": true,
+    "explanation": "crossorigin controla cómo se manejan credenciales para recursos externos cargados (scripts, fonts, images)."
+  },
+  {
+    "id": 63,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS recomienda usar para animaciones suaves y controladas?",
+    "options": [
+      "transition",
+      "animate",
+      "move",
+      "flow"
+    ],
+    "answer": 0,
+    "explanation": "transition permite animar cambios de propiedades CSS de forma fluida."
+  },
+  {
+    "id": 64,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué atributo en <a> abre el enlace en una nueva pestaña?",
+    "options": [
+      "target=\"_blank\"",
+      "rel=\"external\"",
+      "open",
+      "newTab"
+    ],
+    "answer": 0,
+    "explanation": "target=\"_blank\" abre nueva pestaña; es recomendable añadir rel=\"noopener noreferrer\" por seguridad."
+  },
+  {
+    "id": 65,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Las hojas de estilo en línea (style=\"...\") siempre deben preferirse sobre archivos CSS externos.",
+    "answer": false,
+    "explanation": "Se prefieren archivos CSS separados por mantenimiento, caché y separación de responsabilidades."
+  },
+  {
+    "id": 66,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué técnica reduce repaints y reflows al manipular el DOM?",
+    "options": [
+      "Hacer cambios uno a uno directamente",
+      "Usar DocumentFragment o agrupar cambios fuera del flujo",
+      "Usar setTimeout en cada cambio",
+      "Evitar CSS"
+    ],
+    "answer": 1,
+    "explanation": "Agrupar cambios o usar DocumentFragment evita reflows repetidos y mejora rendimiento."
+  },
+  {
+    "id": 67,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS usarías para evitar que una imagen distorsione su ratio al ajustarse?",
+    "options": [
+      "width:100%; height:auto;",
+      "width:auto; height:100%;",
+      "object-fit: fill;",
+      "object-fit: contain;"
+    ],
+    "answer": 0,
+    "explanation": "width:100% con height:auto mantiene la proporción; object-fit es útil para otros escenarios."
+  },
+  {
+    "id": 68,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El pseudo-elemento ::before permite insertar contenido antes del elemento en el flujo CSS.",
+    "answer": true,
+    "explanation": "::before y ::after permiten generar contenido y son útiles para decoraciones sin añadir markup."
+  },
+  {
+    "id": 69,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál selector selecciona todos los elementos p dentro de .container?",
+    "options": [
+      ".container p",
+      "p .container",
+      "#container > p",
+      ".container > p"
+    ],
+    "answer": 0,
+    "explanation": ".container p selecciona todos los p descendientes (no solo hijos directos)."
+  },
+  {
+    "id": 70,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla si un elemento se posiciona respecto a su contenedor o al documento?",
+    "options": [
+      "display",
+      "position",
+      "float",
+      "z-index"
+    ],
+    "answer": 1,
+    "explanation": "position (static, relative, absolute, fixed, sticky) determina el contexto de posicionamiento."
+  },
+  {
+    "id": 71,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Usar SVG para iconos escalables puede ser más eficiente que imágenes rasterizadas.",
+    "answer": true,
+    "explanation": "SVG escala sin pérdida y permite manipulación mediante CSS/JS, ideal para iconos."
+  },
+  {
+    "id": 72,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS se usa para controlar la visibilidad del overflow en el eje X e Y por separado?",
+    "options": [
+      "overflow-x y overflow-y",
+      "overflow-inline y overflow-block",
+      "overflow-top y overflow-left",
+      "overflow-direction"
+    ],
+    "answer": 0,
+    "explanation": "overflow-x y overflow-y permiten controlar el comportamiento de overflow en cada eje."
+  },
+  {
+    "id": 73,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué elemento es apropiado para marcar una lista de definiciones (término y su descripción)?",
+    "options": [
+      "<dl>",
+      "<ul>",
+      "<ol>",
+      "<def>"
+    ],
+    "answer": 0,
+    "explanation": "<dl> (definition list) agrupa <dt> y <dd> para términos y descripciones."
+  },
+  {
+    "id": 74,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo rel=\"preload\" puede ayudar a priorizar recursos críticos.",
+    "answer": true,
+    "explanation": "preload permite indicar al navegador que cargue recursos críticos con alta prioridad."
+  },
+  {
+    "id": 75,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es el propósito de CSS custom properties (variables)?",
+    "options": [
+      "Crear funciones JS en CSS",
+      "Almacenar valores reutilizables en cascada",
+      "Reemplazar clases",
+      "Evitar usar selectores"
+    ],
+    "answer": 1,
+    "explanation": "Custom properties (--var) permiten almacenar valores reutilizables y ser procesados por la cascada."
+  },
+  {
+    "id": 76,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la ventaja de usar CSS Grid sobre float para layouts complejos?",
+    "options": [
+      "Grid ofrece control bidimensional (filas y columnas)",
+      "Grid es más compatible con navegadores antiguos",
+      "Grid reemplaza a Flexbox en todo",
+      "Grid no usa selectores"
+    ],
+    "answer": 0,
+    "explanation": "Grid permite diseñar layouts bidimensionales de forma declarativa y potente."
+  },
+  {
+    "id": 77,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo hidden es equivalente a display:none en comportamiento visual.",
+    "answer": true,
+    "explanation": "hidden oculta el elemento y generalmente lo trata como display:none; sin embargo, puede variar según UA."
+  },
+  {
+    "id": 78,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla la velocidad y tipo de interpolación en una animación?",
+    "options": [
+      "transition-duration y transition-timing-function",
+      "animation-speed",
+      "transition-type",
+      "animation-duration"
+    ],
+    "answer": 0,
+    "explanation": "transition-duration define tiempo; timing-function define la curva de aceleración."
+  },
+  {
+    "id": 79,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué técnica es útil para mejorar la accesibilidad del contraste de texto?",
+    "options": [
+      "Aumentar tamaño de fuente",
+      "Asegurar ratio de contraste suficiente (WCAG)",
+      "Usar colores pastel",
+      "Reducir line-height"
+    ],
+    "answer": 1,
+    "explanation": "Garantizar ratio de contraste (por ejemplo WCAG AA/AAA) mejora legibilidad para usuarios con baja visión."
+  },
+  {
+    "id": 80,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Los pseudo-elementos ::before y ::after requieren content: '' para mostrarse.",
+    "answer": true,
+    "explanation": "Sin content no se renderizan; son necesarios incluso si el contenido es vacío para propósitos decorativos."
+  },
+  {
+    "id": 81,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué atributo HTML se usa para especificar el tipo MIME de un recurso en <source>?",
+    "options": [
+      "mime",
+      "type",
+      "format",
+      "data-type"
+    ],
+    "answer": 1,
+    "explanation": "type indica el tipo MIME (e.g. image/webp, video/mp4) ayudando al navegador a elegir el recurso correcto."
+  },
+  {
+    "id": 82,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El uso excesivo de !important en CSS facilita el mantenimiento a largo plazo.",
+    "answer": false,
+    "explanation": "!important puede resolver conflictos puntuales pero dificulta mantenimiento y cascada; usar con moderación."
+  },
+  {
+    "id": 83,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad controla el flujo de documento para float?",
+    "options": [
+      "clear",
+      "float-flow",
+      "flow",
+      "wrap"
+    ],
+    "answer": 0,
+    "explanation": "clear controla si un elemento debe evitar flotar elementos anteriores (left/right)."
+  },
+  {
+    "id": 84,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué atributo en <form> controla a dónde se envía el formulario?",
+    "options": [
+      "action",
+      "method",
+      "target",
+      "enctype"
+    ],
+    "answer": 0,
+    "explanation": "action especifica la URL destino donde se envía el formulario; method indica GET o POST."
+  },
+  {
+    "id": 85,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo autocomplete en inputs puede mejorar la experiencia del usuario.",
+    "answer": true,
+    "explanation": "autocomplete ayuda al navegador a sugerir valores anteriormente usados, acelerando entrada de datos."
+  },
+  {
+    "id": 86,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es una forma de reducir el repaint al cambiar estilos frecuentemente?",
+    "options": [
+      "Modificar className en lugar de estilos inline repetidamente",
+      "Modificar estilos inline en cada frame",
+      "Usar innerHTML",
+      "Usar alert()"
+    ],
+    "answer": 0,
+    "explanation": "Cambiar clases permite al navegador optimizar cambios; estilos inline repetidos pueden causar reflows frecuentes."
+  },
+  {
+    "id": 87,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS permite controlar la interpolación de imágenes de fondo en alta DPI?",
+    "options": [
+      "image-rendering",
+      "background-size",
+      "object-fit",
+      "image-quality"
+    ],
+    "answer": 0,
+    "explanation": "image-rendering controla cómo el navegador interpola imágenes (pixelated, crisp-edges, auto)."
+  },
+  {
+    "id": 88,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo defer en <script> retrasa la ejecución hasta después del parseo del HTML.",
+    "answer": true,
+    "explanation": "defer hace que el script se cargue en paralelo y se ejecute después de que el documento haya sido parseado."
+  },
+  {
+    "id": 89,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS se recomienda para crear un sistema de diseño con columnas flexibles?",
+    "options": [
+      "float",
+      "display:grid",
+      "display:flex",
+      "position:absolute"
+    ],
+    "answer": 1,
+    "explanation": "Grid es excelente para diseños basados en filas y columnas; Flexbox para eje unidimensional."
+  },
+  {
+    "id": 90,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Cuál es la forma correcta de añadir un favicon a una página?",
+    "options": [
+      "<link rel=\"icon\" href=\"/favicon.ico\">",
+      "<favicon href=\"/favicon.ico\">",
+      "<link rel=\"shortcut icon\">",
+      "Insertar en body"
+    ],
+    "answer": 0,
+    "explanation": "<link rel=\"icon\" href=\"/favicon.ico\"> es la manera estándar de indicar favicon."
+  },
+  {
+    "id": 91,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El atributo title en elementos siempre debe usarse para accesibilidad en lugar de aria-label.",
+    "answer": false,
+    "explanation": "title no siempre es leído por tecnologías asistivas; aria-label suele ser más fiable para accesibilidad."
+  },
+  {
+    "id": 92,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué valor de display hace que el elemento no afecte el layout (no genere caja)?",
+    "options": [
+      "display: none",
+      "display: contents",
+      "display: inline",
+      "display: block"
+    ],
+    "answer": 1,
+    "explanation": "display: contents hace que el elemento no genere una caja visual, sus hijos se comportan como si el contenedor no existiera (usar con cuidado por accesibilidad)."
+  },
+  {
+    "id": 93,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué técnica permite cargar CSS de forma no bloqueante para mejorar rendimiento?",
+    "options": [
+      "rel=\"stylesheet\" normal",
+      "Usar rel=\"preload\" y luego rel=\"stylesheet\" o cargar con media=\"print\" y luego media=\"all\"",
+      "Incluir CSS al final del body",
+      "No usar CSS"
+    ],
+    "answer": 1,
+    "explanation": "Preload o técnicas de carga condicional permiten priorizar CSS crítico y cargar lo demás de forma diferida."
+  },
+  {
+    "id": 94,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "La especificidad de un selector CSS depende del número de IDs, clases y elementos.",
+    "answer": true,
+    "explanation": "Especificidad se calcula según número de IDs, clases/atributos/pseudo-clases y elementos/pseudo-elementos."
+  },
+  {
+    "id": 95,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué atributo en <input> especifica que el campo no puede quedar vacío?",
+    "options": [
+      "required",
+      "readonly",
+      "disabled",
+      "pattern"
+    ],
+    "answer": 0,
+    "explanation": "required obliga a que el usuario complete el campo antes de enviar el formulario."
+  },
+  {
+    "id": 96,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad se usa para crear un contenedor con columnas automáticas en Grid?",
+    "options": [
+      "grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))",
+      "grid-auto-rows",
+      "column-count",
+      "grid-fill"
+    ],
+    "answer": 0,
+    "explanation": "repeat(auto-fill, minmax(...)) es patrón común para crear layout responsivo con columnas que se ajustan automáticamente."
+  },
+  {
+    "id": 97,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "Las media queries modernas pueden usar prefer-color-scheme para detectar modo oscuro.",
+    "answer": true,
+    "explanation": "prefers-color-scheme: dark permite adaptar estilos automáticamente según preferencia del usuario."
+  },
+  {
+    "id": 98,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué propiedad CSS se usa para crear una transición suave al cambiar opacity?",
+    "options": [
+      "transition: opacity 0.3s ease;",
+      "animate-opacity: true;",
+      "opacity-transition: 0.3s;",
+      "transition-opacity: ease;"
+    ],
+    "answer": 0,
+    "explanation": "transition: opacity 0.3s ease; define la animación suave al cambiar la propiedad opacity."
+  },
+  {
+    "id": 99,
+    "type": "mcq",
+    "topic": "HTML/CSS",
+    "question": "¿Qué técnica mejora la entrega crítica de CSS para la primera pintura (LCP)?",
+    "options": [
+      "Inline critical CSS y cargar CSS no crítico de forma diferida",
+      "Cargar todo CSS en el footer",
+      "No usar CSS en la página principal",
+      "Usar imagen en lugar de CSS"
+    ],
+    "answer": 0,
+    "explanation": "Inline del CSS crítico permite pintar la parte visible rápidamente y cargar el resto de forma asíncrona."
+  },
+  {
+    "id": 100,
+    "type": "tf",
+    "topic": "HTML/CSS",
+    "question": "El uso correcto de etiquetas semánticas ayuda a SEO y a accesibilidad.",
+    "answer": true,
+    "explanation": "Etiquetas semánticas facilitan que motores y tecnologías de asistencia interpreten la estructura del contenido."
+  },
+  {
+    "id": 101,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la salida de typeof NaN en JavaScript?",
+    "options": [
+      "'number'",
+      "'NaN'",
+      "'undefined'",
+      "'object'"
+    ],
+    "answer": 0,
+    "explanation": "typeof NaN devuelve 'number' a pesar de que representa un valor no numérico válido."
+  },
+  {
+    "id": 102,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Array.prototype.map?",
+    "options": [
+      "Modifica el array original",
+      "Devuelve un nuevo array transformado",
+      "Devuelve un número",
+      "No hace nada"
+    ],
+    "answer": 1,
+    "explanation": "map aplica una función a cada elemento y devuelve un nuevo array sin mutar el original."
+  },
+  {
+    "id": 103,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Las funciones flecha crean su propio this.",
+    "answer": false,
+    "explanation": "Las arrow functions heredan el this léxico del contexto en que fueron definidas; no crean uno propio."
+  },
+  {
+    "id": 104,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la diferencia principal entre == y ===?",
+    "options": [
+      "== compara sin coerción, === con coerción",
+      "== hace coerción de tipos; === no",
+      "=== siempre devuelve true",
+      "No hay diferencia"
+    ],
+    "answer": 1,
+    "explanation": "== realiza coerción de tipos antes de comparar; === compara valores y tipos estrictamente."
+  },
+  {
+    "id": 105,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Promise.all([p1, p2])?",
+    "options": [
+      "Devuelve la primera promesa que se resuelva",
+      "Resuelve cuando todas las promesas se resuelven",
+      "Rechaza siempre",
+      "Fusiona promesas en una sola"
+    ],
+    "answer": 1,
+    "explanation": "Promise.all devuelve una promesa que se resuelve con un array de resultados si todas se resuelven, o rechaza si alguna falla."
+  },
+  {
+    "id": 106,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Object.keys({a:1,b:2})?",
+    "options": [
+      "['a','b']",
+      "['1','2']",
+      "['a:1','b:2']",
+      "undefined"
+    ],
+    "answer": 0,
+    "explanation": "Object.keys devuelve un array con las claves enumerables del objeto."
+  },
+  {
+    "id": 107,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué es una closure?",
+    "options": [
+      "Una promesa especial",
+      "Una función junto con su scope léxico",
+      "Un tipo de objeto",
+      "Un error de compilación"
+    ],
+    "answer": 1,
+    "explanation": "Una closure permite a una función recordar y acceder a variables del contexto en que fue creada, incluso después de que ese contexto haya terminado."
+  },
+  {
+    "id": 108,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "JSON.stringify convierte funciones a JSON.",
+    "answer": false,
+    "explanation": "JSON.stringify ignora funciones y símbolos; no serializa funciones."
+  },
+  {
+    "id": 109,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué significa 'hoisting' en JavaScript?",
+    "options": [
+      "Mover declaraciones al inicio del scope",
+      "Borrar variables no utilizadas",
+      "Hacer variables globales",
+      "No existe"
+    ],
+    "answer": 0,
+    "explanation": "Hoisting se refiere al comportamiento por el que ciertas declaraciones (var, function) se procesan antes de la ejecución del código, apareciendo como 'elevadas' al inicio del scope."
+  },
+  {
+    "id": 110,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Array.prototype.filter?",
+    "options": [
+      "Un nuevo array con elementos que pasan la prueba",
+      "Un número",
+      "El mismo array",
+      "Un objeto"
+    ],
+    "answer": 0,
+    "explanation": "filter crea y devuelve un nuevo array con los elementos que cumplen la función de prueba."
+  },
+  {
+    "id": 111,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "0.1 + 0.2 === 0.3 en JavaScript devuelve true.",
+    "answer": false,
+    "explanation": "Debido a la precisión de punto flotante en binario, 0.1 + 0.2 no es exactamente 0.3, por lo que la comparación estricta suele dar false."
+  },
+  {
+    "id": 112,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué es el event loop?",
+    "options": [
+      "Un API del DOM",
+      "El mecanismo que permite la asincronía en JS",
+      "Una librería externa",
+      "Un tipo de promesa"
+    ],
+    "answer": 1,
+    "explanation": "El event loop gestiona la cola de tareas, microtasks y la ejecución asíncrona en el hilo principal de JavaScript."
+  },
+  {
+    "id": 113,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Array.prototype.reduce?",
+    "options": [
+      "Filtrar elementos",
+      "Aplicar una función y devolver un acumulador",
+      "Crear una copia del array",
+      "Ordenar elementos"
+    ],
+    "answer": 1,
+    "explanation": "reduce itera sobre el array y acumula un resultado usando la función reductora."
+  },
+  {
+    "id": 114,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "async/await es sintaxis azúcar sobre Promises.",
+    "answer": true,
+    "explanation": "async/await simplifica el uso de promesas pero está construido sobre ellas."
+  },
+  {
+    "id": 115,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace JSON.parse('{\"a\":1}')?",
+    "options": [
+      "Devuelve la cadena sin cambios",
+      "Lanza un error",
+      "Devuelve un objeto {a:1}",
+      "Devuelve undefined"
+    ],
+    "answer": 2,
+    "explanation": "JSON.parse convierte una cadena JSON válida en el objeto JavaScript correspondiente."
+  },
+  {
+    "id": 116,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué operador se usa para expandir elementos de un array dentro de otro array literal?",
+    "options": [
+      "spread (...)",
+      "rest (...)",
+      "concat (+)",
+      "apply()"
+    ],
+    "answer": 0,
+    "explanation": "El operador spread (...) expande un iterable como elementos individuales dentro de otro array o llamada a función."
+  },
+  {
+    "id": 117,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "let y const tienen scope de bloque.",
+    "answer": true,
+    "explanation": "let y const respetan block scope; var tiene scope de función."
+  },
+  {
+    "id": 118,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué resultado produce typeof null?",
+    "options": [
+      "'null'",
+      "'object'",
+      "'undefined'",
+      "'number'"
+    ],
+    "answer": 1,
+    "explanation": "typeof null devuelve 'object' por razones históricas del lenguaje."
+  },
+  {
+    "id": 119,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la forma correcta de clonar un objeto plano (shallow) en JS?",
+    "options": [
+      "Object.assign({}, obj)",
+      "obj.clone()",
+      "JSON.parse(obj)",
+      "obj === {}"
+    ],
+    "answer": 0,
+    "explanation": "Object.assign({}, obj) crea una copia superficial; JSON.parse(JSON.stringify(obj)) también puede funcionar con limitaciones."
+  },
+  {
+    "id": 120,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Las funciones declaradas (function foo(){}) son hoisted completamente (definición y cuerpo).",
+    "answer": true,
+    "explanation": "Las declaraciones de función se elevan con su definición completa dentro del scope."
+  },
+  {
+    "id": 121,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Function.prototype.bind?",
+    "options": [
+      "Ejecuta la función inmediatamente",
+      "Crea una nueva función con this ligado y argumentos prefijados",
+      "Elimina la función",
+      "Convierte en arrow function"
+    ],
+    "answer": 1,
+    "explanation": "bind devuelve una nueva función con el this establecido y argumentos parcialmente aplicados si se proporcionan."
+  },
+  {
+    "id": 122,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Promise.resolve(5)?",
+    "options": [
+      "5",
+      "Una promesa resuelta con valor 5",
+      "Una promesa rechazada",
+      "undefined"
+    ],
+    "answer": 1,
+    "explanation": "Promise.resolve devuelve una promesa ya resuelta con el valor dado."
+  },
+  {
+    "id": 123,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Los objetos en JS se comparan por referencia, no por valor.",
+    "answer": true,
+    "explanation": "Comparar objetos con === compara referencias (si son la misma instancia), no su contenido."
+  },
+  {
+    "id": 124,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Array.prototype.splice(index, count, ...items)?",
+    "options": [
+      "No hace nada",
+      "Crea una copia del array",
+      "Modifica el array original, eliminando y/o insertando elementos",
+      "Ordena el array"
+    ],
+    "answer": 2,
+    "explanation": "splice altera el array original, eliminando y/o insertando elementos en la posición indicada."
+  },
+  {
+    "id": 125,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve typeof (() => {})?",
+    "options": [
+      "'function'",
+      "'object'",
+      "'undefined'",
+      "'arrow'"
+    ],
+    "answer": 0,
+    "explanation": "Las funciones, incluidas las arrow functions, tienen tipo 'function'."
+  },
+  {
+    "id": 126,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método .call permite ejecutar una función con un this específico.",
+    "answer": true,
+    "explanation": "Function.prototype.call invoca la función con un valor this explícito y argumentos listados."
+  },
+  {
+    "id": 127,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace el operador ?? (nullish coalescing)?",
+    "options": [
+      "Devuelve la derecha si la izquierda es null o undefined",
+      "Devuelve la derecha si la izquierda es falsy (0, '', false)",
+      "Hace una comparación estricta",
+      "No existe"
+    ],
+    "answer": 0,
+    "explanation": "El operador ?? devuelve el operando derecho solo si el izquierdo es null o undefined."
+  },
+  {
+    "id": 128,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace el operador ?. (optional chaining)?",
+    "options": [
+      "Lanza error si la propiedad no existe",
+      "Accede a la propiedad solo si la referencia no es null/undefined",
+      "Ignora todas las propiedades",
+      "Convierte a cadena"
+    ],
+    "answer": 1,
+    "explanation": "El optional chaining evita errores al acceder a propiedades de objetos potencialmente null/undefined."
+  },
+  {
+    "id": 129,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "JSON.stringify puede lanzar un error si hay referencias circulares en el objeto.",
+    "answer": true,
+    "explanation": "Si el objeto contiene referencias circulares, JSON.stringify lanza TypeError."
+  },
+  {
+    "id": 130,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿En qué situación conviene usar Map en lugar de un objeto plain ({})?",
+    "options": [
+      "Cuando necesitas claves no-string, orden de inserción garantizado y mejor performance para muchas operaciones",
+      "Nunca",
+      "Cuando solo almacenas strings como claves",
+      "Para estilos CSS"
+    ],
+    "answer": 0,
+    "explanation": "Map soporta claves de cualquier tipo, mantiene el orden de inserción y tiene métodos útiles como .get/.set."
+  },
+  {
+    "id": 131,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Array.isArray([])?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "answer": 0,
+    "explanation": "Array.isArray devuelve true si el argumento es un array."
+  },
+  {
+    "id": 132,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "La función setTimeout ejecuta la callback exactamente después del tiempo especificado.",
+    "answer": false,
+    "explanation": "setTimeout garantiza un retraso mínimo; la ejecución depende del event loop y puede retrasarse por otras tareas."
+  },
+  {
+    "id": 133,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Number('123abc')?",
+    "options": [
+      "123",
+      "NaN",
+      "'123abc'",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "Number convierte la cadena; si no es un número válido devuelve NaN."
+  },
+  {
+    "id": 134,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la ventaja de usar const para declarar objetos que no serán reasignados?",
+    "options": [
+      "Los datos internos no pueden modificarse",
+      "Evita la reasignación de la variable (la referencia no cambia)",
+      "Hace la variable global",
+      "Mejora la performance"
+    ],
+    "answer": 1,
+    "explanation": "const evita reasignar la variable a otra referencia; el contenido del objeto aún puede mutar."
+  },
+  {
+    "id": 135,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Los métodos de array como map, filter y reduce no mutan el array original.",
+    "answer": true,
+    "explanation": "map, filter y reduce retornan nuevos valores/arrays; no mutan el array original (a diferencia de splice, push, pop)."
+  },
+  {
+    "id": 136,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace JSON.parse('null')?",
+    "options": [
+      "Devuelve la cadena 'null'",
+      "Devuelve null",
+      "Lanza error",
+      "Devuelve undefined"
+    ],
+    "answer": 1,
+    "explanation": "JSON.parse sobre la cadena 'null' devuelve el valor null."
+  },
+  {
+    "id": 137,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué patrón es útil para evitar llamadas redundantes en eventos de scroll o resize?",
+    "options": [
+      "debounce",
+      "throttle",
+      "both pueden usarse",
+      "ninguno"
+    ],
+    "answer": 2,
+    "explanation": "Debounce y throttle son técnicas para limitar la frecuencia de ejecución; ambas son útiles dependiendo del caso."
+  },
+  {
+    "id": 138,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El operador '+' entre strings concatena en JavaScript.",
+    "answer": true,
+    "explanation": "El operador + concatena strings y suma números (coerción según tipos)."
+  },
+  {
+    "id": 139,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve typeof (async function() {})?",
+    "options": [
+      "'async'",
+      "'function'",
+      "'object'",
+      "'promise'"
+    ],
+    "answer": 1,
+    "explanation": "Las funciones async son todavía del tipo 'function' según typeof."
+  },
+  {
+    "id": 140,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué método sería apropiado para clonar un array de objetos de forma superficial?",
+    "options": [
+      "arr.slice() o [...arr]",
+      "JSON.stringify(arr)",
+      "Object.assign(arr)",
+      "for...in"
+    ],
+    "answer": 0,
+    "explanation": "arr.slice() o spread ([...arr]) generan una copia superficial del array; JSON.stringify + parse crea copia profunda salvo funciones."
+  },
+  {
+    "id": 141,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El bucle for...of itera sobre los valores de un iterable (arrays, strings).",
+    "answer": true,
+    "explanation": "for...of recorre valores iterables; for...in recorre propiedades/enumerables (keys)."
+  },
+  {
+    "id": 142,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hacen los métodos push y pop en un array?",
+    "options": [
+      "push agrega al final; pop elimina del final (mutan el array)",
+      "push elimina; pop agrega",
+      "Ambos no mutan",
+      "Ambos devuelven nuevos arrays"
+    ],
+    "answer": 0,
+    "explanation": "push y pop mutan el array agregando o quitando elementos al final."
+  },
+  {
+    "id": 143,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve '5' - 2 en JavaScript?",
+    "options": [
+      "'52'",
+      "3",
+      "NaN",
+      "'3'"
+    ],
+    "answer": 1,
+    "explanation": "El operador - fuerza coerción numérica: '5' - 2 = 3."
+  },
+  {
+    "id": 144,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método Array.prototype.forEach devuelve un nuevo array con resultados.",
+    "answer": false,
+    "explanation": "forEach itera pero devuelve undefined; no está diseñado para mapear resultados (usar map)."
+  },
+  {
+    "id": 145,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Object.freeze(obj)?",
+    "options": [
+      "Hace que obj sea completamente inmutable (no se pueden cambiar referencias internas en todos los casos)",
+      "Hace una copia del objeto",
+      "No hace nada",
+      "Convierte en string"
+    ],
+    "answer": 0,
+    "explanation": "Object.freeze hace que las propiedades no se puedan cambiar ni reconfigurar — es una congelación superficial."
+  },
+  {
+    "id": 146,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la salida de typeof []?",
+    "options": [
+      "'array'",
+      "'object'",
+      "'list'",
+      "'undefined'"
+    ],
+    "answer": 1,
+    "explanation": "typeof devuelve 'object' para arrays; por eso se usa Array.isArray para comprobar arrays."
+  },
+  {
+    "id": 147,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método .includes en strings y arrays permite saber si contienen un valor.",
+    "answer": true,
+    "explanation": "String.prototype.includes y Array.prototype.includes comprueban existencia de substring o elemento."
+  },
+  {
+    "id": 148,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace console.log?.apply(null, [1,2,3])?",
+    "options": [
+      "Llama a console.log con argumentos 1,2,3 usando apply",
+      "No existe",
+      "Hace lo mismo que bind",
+      "Causa un error"
+    ],
+    "answer": 0,
+    "explanation": "apply permite invocar una función con un this y una lista de argumentos; console.log.apply(null, [1,2,3]) imprime 1 2 3."
+  },
+  {
+    "id": 149,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué es el 'call stack' en JS?",
+    "options": [
+      "La pila de llamadas que registra ejecución de funciones",
+      "Una librería",
+      "Un nuevo tipo de array",
+      "Un módulo de Node"
+    ],
+    "answer": 0,
+    "explanation": "El call stack almacena los contextos de ejecución (frames) de funciones activas."
+  },
+  {
+    "id": 150,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El operador typeof null devuelve 'object'.",
+    "answer": true,
+    "explanation": "Es un comportamiento histórico del lenguaje: typeof null === 'object'."
+  },
+  {
+    "id": 151,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la forma recomendada de manejar errores con async/await?",
+    "options": [
+      "try { await x } catch(e) { ... }",
+      "await x.catch(e => {})",
+      "No manejar errores",
+      "Usar setTimeout"
+    ],
+    "answer": 0,
+    "explanation": "El patrón común es usar try/catch alrededor de await para capturar errores de la promesa."
+  },
+  {
+    "id": 152,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Function.prototype.apply(obj, argsArray)?",
+    "options": [
+      "Invoca la función con this=obj y argumentos desde un array",
+      "Aplica map sobre obj",
+      "Crea una promesa",
+      "No existe"
+    ],
+    "answer": 0,
+    "explanation": "apply invoca la función con un this explícito y una lista de argumentos pasada como array."
+  },
+  {
+    "id": 153,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Los símbolos (Symbol) pueden usarse como claves de propiedades en objetos.",
+    "answer": true,
+    "explanation": "Symbol crea identificadores únicos que pueden usarse como claves de propiedades sin colisiones."
+  },
+  {
+    "id": 154,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué método permite combinar arrays en uno nuevo?",
+    "options": [
+      "concat",
+      "push",
+      "splice",
+      "split"
+    ],
+    "answer": 0,
+    "explanation": "concat devuelve un nuevo array combinado sin mutar los originales."
+  },
+  {
+    "id": 155,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué estructura se adapta mejor para FIFO (First In First Out)?",
+    "options": [
+      "Stack (LIFO)",
+      "Queue",
+      "Set",
+      "Map"
+    ],
+    "answer": 1,
+    "explanation": "Una cola (queue) opera con el orden FIFO; en JS se implementa con arrays usando push y shift, o con estructuras especializadas."
+  },
+  {
+    "id": 156,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El operador delete elimina propiedades de un objeto.",
+    "answer": true,
+    "explanation": "delete obj.prop elimina la propiedad; no afecta prototipo salvo que la propiedad esté ahí."
+  },
+  {
+    "id": 157,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Object.entries({a:1,b:2})?",
+    "options": [
+      "[['a',1],['b',2]]",
+      "['a','b']",
+      "{a:1,b:2}",
+      "['1','2']"
+    ],
+    "answer": 0,
+    "explanation": "Object.entries devuelve un array de pares [key, value]."
+  },
+  {
+    "id": 158,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace String.prototype.trim()?",
+    "options": [
+      "Elimina espacios al inicio y final de la cadena",
+      "Elimina todos los espacios",
+      "Reemplaza espacios por guiones",
+      "No existe"
+    ],
+    "answer": 0,
+    "explanation": "trim quita espacios en blanco al inicio y al final de la cadena."
+  },
+  {
+    "id": 159,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Los métodos de Array como sort() mutan el array original.",
+    "answer": true,
+    "explanation": "sort() y otros métodos (splice, push) pueden mutar el array en lugar de devolver uno nuevo."
+  },
+  {
+    "id": 160,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Para qué sirve Promise.race?",
+    "options": [
+      "Esperar a que todas se resuelvan",
+      "Resuelve o rechaza con la primera promesa que termine (resuelta o rechazada)",
+      "Fusionar resultados",
+      "No existe"
+    ],
+    "answer": 1,
+    "explanation": "Promise.race devuelve una promesa que se resuelve o rechaza tan pronto como una de las promesas del iterable se resuelva o rechace."
+  },
+  {
+    "id": 161,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué técnica evita bloquear el hilo principal en operaciones largas?",
+    "options": [
+      "Usar operaciones sincrónicas",
+      "Delegar a Web Workers o dividir tareas en microtasks/macrotasks",
+      "Aumentar CPU",
+      "Usar alert()"
+    ],
+    "answer": 1,
+    "explanation": "Para operaciones costosas se usan Web Workers o técnicas que fragmentan el trabajo, evitando bloquear el hilo principal."
+  },
+  {
+    "id": 162,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El spread operator puede usarse para clonar arrays superficialmente.",
+    "answer": true,
+    "explanation": "El spread ([...arr]) crea una nueva array con los mismos elementos (shallow copy)."
+  },
+  {
+    "id": 163,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Object.assign(dest, src)?",
+    "options": [
+      "Devuelve un nuevo objeto sin modificar dest",
+      "Copia propiedades enumerables de src a dest y devuelve dest (mutando dest)",
+      "Elimina propiedades",
+      "Convierte a JSON"
+    ],
+    "answer": 1,
+    "explanation": "Object.assign copia propiedades enumerables de objetos fuente al objeto destino, mutándolo."
+  },
+  {
+    "id": 164,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la salida de '5' + 3 en JavaScript?",
+    "options": [
+      "8",
+      "'53'",
+      "NaN",
+      "'8'"
+    ],
+    "answer": 1,
+    "explanation": "El operador + concatena cuando uno de los operandos es string => '5' + 3 = '53'."
+  },
+  {
+    "id": 165,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Las promesas en JS tienen métodos then y catch para encadenamiento.",
+    "answer": true,
+    "explanation": "Promise.prototype.then y catch permiten encadenar manejadores de resultado y error."
+  },
+  {
+    "id": 166,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué operador se usa para comprobar si una propiedad existe en un objeto (in)?",
+    "options": [
+      "hasOwnProperty",
+      "'prop' in obj",
+      "obj.prop !== undefined",
+      "todos los anteriores"
+    ],
+    "answer": 3,
+    "explanation": "Hay varias formas: 'prop' in obj comprueba en la cadena de prototipos; obj.hasOwnProperty verifica propiedades propias; la comparación con undefined también se usa."
+  },
+  {
+    "id": 167,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Object.freeze en cuanto al objeto resultado?",
+    "options": [
+      "Una copia congelada",
+      "El mismo objeto congelado (superficial)",
+      "undefined",
+      "Un proxy"
+    ],
+    "answer": 1,
+    "explanation": "Object.freeze devuelve la misma referencia del objeto tras congelarlo (superficialmente)."
+  },
+  {
+    "id": 168,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Los módulos ES (import/export) se cargan en modo estricto automáticamente.",
+    "answer": true,
+    "explanation": "Los módulos ECMAScript se ejecutan en strict mode por defecto."
+  },
+  {
+    "id": 169,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace console.error en comparación con console.log?",
+    "options": [
+      "Nada, son lo mismo",
+      "Imprime en la consola con nivel de error y puede mostrarse distinto",
+      "Cierra la consola",
+      "Lanza una excepción"
+    ],
+    "answer": 1,
+    "explanation": "console.error registra mensajes de error que pueden ser tratados o mostrados con distinto estilo por las herramientas de desarrollo."
+  },
+  {
+    "id": 170,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la forma de crear un set de valores únicos?",
+    "options": [
+      "new Set([1,2,2])",
+      "new Map([1,2])",
+      "[] con filter",
+      "Object.createSet()"
+    ],
+    "answer": 0,
+    "explanation": "Set almacena valores únicos; new Set([1,2,2]) resultará en {1,2}."
+  },
+  {
+    "id": 171,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método .then de una promesa siempre ejecuta en una microtask.",
+    "answer": true,
+    "explanation": "Las callbacks de promesas se encolan en la fila de microtasks, ejecutándose antes de la siguiente renderización o macrotask."
+  },
+  {
+    "id": 172,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué estructura de datos usarías para asociar claves con valores y mantener orden de inserción?",
+    "options": [
+      "Object",
+      "Map",
+      "Array",
+      "Set"
+    ],
+    "answer": 1,
+    "explanation": "Map mantiene el orden de inserción y permite claves de cualquier tipo."
+  },
+  {
+    "id": 173,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace Object.getPrototypeOf(obj)?",
+    "options": [
+      "Devuelve el prototipo (prototype) del objeto",
+      "Elimina el prototipo",
+      "Copiar el objeto",
+      "No existe"
+    ],
+    "answer": 0,
+    "explanation": "Object.getPrototypeOf devuelve el prototipo interno de un objeto (lo que normalmente es accesible con __proto__)."
+  },
+  {
+    "id": 174,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "El método .bind devuelve una nueva función con this ligado. ¿Qué más puede hacer bind?",
+    "options": [
+      "Ejecutar la función inmediatamente",
+      "Pre-fijar argumentos (partial application)",
+      "Eliminar la función original",
+      "Convertir la función en una promesa"
+    ],
+    "answer": 1,
+    "explanation": "bind además de establecer el this puede preconfigurar argumentos iniciales (partial application) y devuelve una nueva función."
+  },
+  {
+    "id": 175,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la ventaja de usar async/await respecto a then/catch en promesas?",
+    "options": [
+      "Menor consumo de memoria",
+      "Sintaxis más parecida al código sincrónico, código más legible",
+      "Mayor compatibilidad con navegadores antiguos sin transpilar",
+      "Evita errores en runtime"
+    ],
+    "answer": 1,
+    "explanation": "async/await ofrece una sintaxis que facilita leer y escribir código asíncrono como si fuera sincrónico, mejorando legibilidad y manejo de errores con try/catch."
+  },
+  {
+    "id": 176,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método Array.prototype.flat(depth) aplana un array hasta la profundidad indicada.",
+    "answer": true,
+    "explanation": "flat permite aplanar arrays anidados hasta la profundidad especificada (por defecto depth=1)."
+  },
+  {
+    "id": 177,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve typeof /foo/ en JavaScript (un regex literal)?",
+    "options": [
+      "'regex'",
+      "'object'",
+      "'function'",
+      "'undefined'"
+    ],
+    "answer": 1,
+    "explanation": "typeof de un RegExp devuelve 'object'."
+  },
+  {
+    "id": 178,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué método se usa para convertir una NodeList en un array real?",
+    "options": [
+      "Array.from(nodeList)",
+      "nodeList.toArray()",
+      "new Array(nodeList)",
+      "nodeList.map()"
+    ],
+    "answer": 0,
+    "explanation": "Array.from convierte iterables/array-likes (como NodeList) en arrays reales; también se puede usar spread [...nodeList]."
+  },
+  {
+    "id": 179,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El operador delete también elimina propiedades heredadas del prototipo.",
+    "answer": false,
+    "explanation": "delete sólo elimina propiedades propias del objeto; no afecta propiedades en la cadena de prototipos."
+  },
+  {
+    "id": 180,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué ventaja ofrece usar modules (ESM) frente a scripts globales?",
+    "options": [
+      "Encapsulación, imports/exports y ejecución en strict mode",
+      "Ejecutan más rápido siempre",
+      "Permiten usar var sin problema",
+      "Evitan la necesidad de bundlers"
+    ],
+    "answer": 0,
+    "explanation": "Los módulos proporcionan encapsulación, permiten importar/exportar y se ejecutan en strict mode, reduciendo el riesgo de colisiones globales."
+  },
+  {
+    "id": 181,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "JSON.parse('\"5\"') devuelve el string '5', no el número 5.",
+    "answer": true,
+    "explanation": "JSON.parse convierte cadenas JSON a sus correspondientes tipos; '\"5\"' es una cadena JSON que resulta en string '5'."
+  },
+  {
+    "id": 182,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es el propósito de WeakMap?",
+    "options": [
+      "Almacenar claves y valores que siempre permanecen en memoria",
+      "Permitir claves garbage-collectables (referencias débiles) para evitar memory leaks",
+      "Reemplazar Map en todos los casos",
+      "Serializar objetos"
+    ],
+    "answer": 1,
+    "explanation": "WeakMap permite usar objetos como claves sin impedir que sean recolectados por el garbage collector cuando no hay otras referencias."
+  },
+  {
+    "id": 183,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve '10'.padStart(4, '0')?",
+    "options": [
+      "'0010'",
+      "'1000'",
+      "'  10'",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "padStart añade caracteres al inicio hasta alcanzar la longitud deseada: '10' -> '0010'."
+  },
+  {
+    "id": 184,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "La coerción de tipos automática puede llevar a resultados inesperados en comparaciones.",
+    "answer": true,
+    "explanation": "La coerción implícita (ej. '5' == 5) puede producir resultados no deseados; se recomienda === para comparaciones estrictas."
+  },
+  {
+    "id": 185,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es una buena práctica para evitar data races en entornos concurrentes (Web Workers)?",
+    "options": [
+      "Compartir objetos mutables entre hilos directamente",
+      "Usar Transferable Objects o pasar mensajes serializados",
+      "Usar variables globales",
+      "No usar Web Workers"
+    ],
+    "answer": 1,
+    "explanation": "Para evitar condiciones de carrera se deben usar mensajes (postMessage) o objetos transferibles en lugar de compartir estado mutable directamente."
+  },
+  {
+    "id": 186,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué hace el método String.prototype.replaceAll('a','b')?",
+    "options": [
+      "Reemplaza solo la primera ocurrencia",
+      "Reemplaza todas las ocurrencias exactas de 'a' por 'b'",
+      "Lanza error si no existe",
+      "No existe replaceAll"
+    ],
+    "answer": 1,
+    "explanation": "replaceAll reemplaza todas las ocurrencias exactas de la cadena buscada por la de reemplazo."
+  },
+  {
+    "id": 187,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Los nombres de variables pueden empezar con números en JavaScript.",
+    "answer": false,
+    "explanation": "Los identificadores no pueden comenzar con dígitos; deben empezar con letra, _, o $."
+  },
+  {
+    "id": 188,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué método permite manejar múltiples promesas con límites de concurrencia (no nativas)?",
+    "options": [
+      "Promise.allLimit nativo",
+      "Implementaciones personalizadas o librerías (p. ej. p-limit)",
+      "Promise.concurrent",
+      "No es posible"
+    ],
+    "answer": 1,
+    "explanation": "Para limitar concurrencia se emplean patrones/librerías externas (p-limit, p-map) o implementaciones manuales; no hay API nativa específica."
+  },
+  {
+    "id": 189,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Number('   42   ')?",
+    "options": [
+      "42",
+      "'   42   '",
+      "NaN",
+      "undefined"
+    ],
+    "answer": 0,
+    "explanation": "Number trimmea la cadena y convierte a número si es válido; devuelve 42."
+  },
+  {
+    "id": 190,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método JSON.stringify mantiene el orden de propiedades de objetos en la salida.",
+    "answer": true,
+    "explanation": "JSON.stringify serializa propiedades según el orden de enumeración del objeto, que en la práctica sigue reglas de inserción para strings y orden numérico para índices."
+  },
+  {
+    "id": 191,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué es un polyfill?",
+    "options": [
+      "Una función que mejora performance",
+      "Código que implementa APIs modernas para navegadores antiguos",
+      "Un tipo de promesa",
+      "Una librería de UI"
+    ],
+    "answer": 1,
+    "explanation": "Polyfills proporcionan implementaciones de funcionalidades modernas en entornos que no las soportan."
+  },
+  {
+    "id": 192,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la salida de Boolean('')?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "answer": 1,
+    "explanation": "Una cadena vacía es falsy, por lo que Boolean('') devuelve false."
+  },
+  {
+    "id": 193,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "Funciones generadoras (function*) devuelven un iterator y pueden pausar ejecución con yield.",
+    "answer": true,
+    "explanation": "Generators producen iteradores y usan yield para pausar y reanudar ejecución."
+  },
+  {
+    "id": 194,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué método es útil para debugear promesas no manejadas en Node?",
+    "options": [
+      "process.on('unhandledRejection', ...)",
+      "console.error(promesa)",
+      "Promise.debug()",
+      "No hay manera"
+    ],
+    "answer": 0,
+    "explanation": "process.on('unhandledRejection') permite capturar promesas rechazadas sin manejador en Node."
+  },
+  {
+    "id": 195,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué tipo de datos permite Map usar como claves que Object normalmente no permite (sin conversión)?",
+    "options": [
+      "Solo strings",
+      "Objetos, funciones, símbolos y cualquier tipo",
+      "Solo números",
+      "Solo booleans"
+    ],
+    "answer": 1,
+    "explanation": "Map permite claves de cualquier tipo, incluyendo objetos y funciones, sin convertirlas a strings."
+  },
+  {
+    "id": 196,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El método .toFixed(2) en Number devuelve una string representando el número con 2 decimales.",
+    "answer": true,
+    "explanation": "toFixed devuelve una cadena formateada con el número de decimales indicado."
+  },
+  {
+    "id": 197,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la forma de crear un array vacío con longitud 5 pero sin elementos definidos?",
+    "options": [
+      "new Array(5)",
+      "[] * 5",
+      "[, , , ,]",
+      "Array.of(5)"
+    ],
+    "answer": 0,
+    "explanation": "new Array(5) crea un array con length 5 pero con posiciones vacías (holes)."
+  },
+  {
+    "id": 198,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Qué devuelve Promise.resolve(Promise.resolve(5))?",
+    "options": [
+      "Una promesa doble anidada",
+      "Una promesa resuelta con 5 (planificación automática de flattening)",
+      "Una promesa rechazada",
+      "Nada"
+    ],
+    "answer": 1,
+    "explanation": "Promise.resolve aplana promesas anidadas y devuelve una promesa resuelta con el valor interno."
+  },
+  {
+    "id": 199,
+    "type": "tf",
+    "topic": "JavaScript",
+    "question": "El operador === realiza comparación estricta (sin coerción de tipos).",
+    "answer": true,
+    "explanation": "=== compara tipo y valor sin hacer coerción implícita."
+  },
+  {
+    "id": 200,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "question": "¿Cuál es la diferencia práctica entre let y var?",
+    "options": [
+      "let tiene hoisting y var no",
+      "let tiene block scope y no permite redeclaración en el mismo scope; var tiene function scope y permite redeclaración",
+      "No hay diferencia",
+      "var es más rápido"
+    ],
+    "answer": 1,
+    "explanation": "let respeta block scope y evita redeclaraciones, mientras que var tiene scope de función y permite redeclaraciones dentro del mismo scope."
+  },
+  {
+    "id": 201,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hace useState en un componente funcional de React?",
+    "options": [
+      "Crea un efecto secundario",
+      "Permite añadir estado local al componente",
+      "Accede al DOM",
+      "Declara una variable global"
+    ],
+    "answer": 1,
+    "explanation": "useState permite definir y actualizar estado local dentro de componentes funcionales."
+  },
+  {
+    "id": 202,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Para qué sirve useEffect?",
+    "options": [
+      "Para renderizar JSX",
+      "Para ejecutar efectos secundarios después del render y limpiar recursos",
+      "Para crear rutas",
+      "Para manejar estilos"
+    ],
+    "answer": 1,
+    "explanation": "useEffect se usa para efectos como fetch, suscripciones o timers y puede devolver una función de limpieza."
+  },
+  {
+    "id": 203,
+    "type": "tf",
+    "topic": "React",
+    "question": "JSX es obligatorio para usar React.",
+    "answer": false,
+    "explanation": "JSX es azúcar sintáctico transpiled a React.createElement; no es obligatorio aunque es la forma más común de escribir componentes."
+  },
+  {
+    "id": 204,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué es el Virtual DOM?",
+    "options": [
+      "Una copia física del DOM en el servidor",
+      "Una representación en memoria del DOM que React usa para minimizar cambios al DOM real",
+      "Un nuevo API del navegador",
+      "Una librería externa"
+    ],
+    "answer": 1,
+    "explanation": "El Virtual DOM es una representación en memoria que React usa para calcular diferencias (diff) y aplicar cambios eficientes al DOM real."
+  },
+  {
+    "id": 205,
+    "type": "tf",
+    "topic": "React",
+    "question": "Los hooks no pueden llamarse condicionalmente dentro de un componente.",
+    "answer": true,
+    "explanation": "Las reglas de hooks exigen llamarlos siempre en el mismo orden (top-level), no dentro de condiciones o loops."
+  },
+  {
+    "id": 206,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué se logra con React.memo?",
+    "options": [
+      "Convertir componente funcional en clase",
+      "Evitar re-render si las props no cambian (memoización del render)",
+      "Crear un hook nuevo",
+      "Forzar rerender"
+    ],
+    "answer": 1,
+    "explanation": "React.memo memoriza el resultado del render y evita rerenders si las props no cambian (shallow comparison por defecto)."
+  },
+  {
+    "id": 207,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para almacenar una referencia mutable que no causa rerenders?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "useMemo"
+    ],
+    "answer": 2,
+    "explanation": "useRef devuelve un objeto mutable (.current) que persiste entre renders sin provocar re-render cuando cambia."
+  },
+  {
+    "id": 208,
+    "type": "tf",
+    "topic": "React",
+    "question": "useCallback memoriza una función y su referencia cambia sólo si sus dependencias cambian.",
+    "answer": true,
+    "explanation": "useCallback devuelve una versión memoizada de la función que se mantiene estable a menos que cambien las dependencias."
+  },
+  {
+    "id": 209,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué es lifting state up?",
+    "options": [
+      "Mover estado desde un componente hijo a un ancestro común para compartirlo entre hermanos",
+      "Enviar estado a la API",
+      "Eliminar estado",
+      "Hacer estado global siempre"
+    ],
+    "answer": 0,
+    "explanation": "Lifting state up consiste en mover el estado al ancestro común más cercano para compartir datos entre componentes hijos."
+  },
+  {
+    "id": 210,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Para qué sirve useMemo?",
+    "options": [
+      "Memoizar valores computados caros para evitar recomputaciones innecesarias",
+      "Crear un efecto secundario",
+      "Acceder al DOM",
+      "Declarar rutas"
+    ],
+    "answer": 0,
+    "explanation": "useMemo memoriza el resultado de una función para evitar recomputaciones costosas mientras las dependencias no cambien."
+  },
+  {
+    "id": 211,
+    "type": "tf",
+    "topic": "React",
+    "question": "React.StrictMode se utiliza para detectar prácticas inseguras en desarrollo y puede invocar funciones dos veces en modo estricto.",
+    "answer": true,
+    "explanation": "StrictMode activa comprobaciones y advertencias en desarrollo; por ejemplo, puede montar componentes dos veces para detectar efectos secundarios no idempotentes."
+  },
+  {
+    "id": 212,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué es un custom hook?",
+    "options": [
+      "Un hook proporcionado por React",
+      "Una función que usa hooks y encapsula lógica reutilizable",
+      "Un componente de clase",
+      "Un tipo de effect"
+    ],
+    "answer": 1,
+    "explanation": "Los custom hooks son funciones que combinan hooks para encapsular y reutilizar lógica entre componentes."
+  },
+  {
+    "id": 213,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es correcto usar hooks dentro de bucles o condicionales si se mantiene el orden de llamadas intacto.",
+    "answer": false,
+    "explanation": "Aunque la idea es mantener el orden, la regla general es no llamar hooks dentro de condiciones o loops para evitar romper el orden entre renders."
+  },
+  {
+    "id": 214,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es la diferencia entre props y state?",
+    "options": [
+      "No hay diferencia",
+      "Props son inmutables desde la perspectiva del componente; state es local y mutable mediante setState/useState",
+      "Props pueden cambiar con setState",
+      "State se pasa desde el padre"
+    ],
+    "answer": 1,
+    "explanation": "Props son valores pasados por el padre y no deben ser mutados por el hijo; state es manejo interno del componente y puede cambiar mediante hooks o setState."
+  },
+  {
+    "id": 215,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué es Suspense en React (a alto nivel)?",
+    "options": [
+      "Una forma de pausar render hasta que algo esté listo (lazy loading/data fetching experimental)",
+      "Un hook para efectos",
+      "Un método del ciclo de vida",
+      "Una librería externa"
+    ],
+    "answer": 0,
+    "explanation": "Suspense permite mostrar un fallback mientras se resuelven recursos asíncronos (como componentes lazy o data fetching con APIs compatibles)."
+  },
+  {
+    "id": 216,
+    "type": "tf",
+    "topic": "React",
+    "question": "Cuando pasas una función como prop a un hijo sin usar useCallback, la referencia puede cambiar en cada render y causar rerenders innecesarios.",
+    "answer": true,
+    "explanation": "Las funciones re-creadas en cada render cambian de referencia; useCallback puede estabilizarlas cuando es necesario optimizar renderizado de hijos."
+  },
+  {
+    "id": 217,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hace useReducer comparado con useState?",
+    "options": [
+      "useReducer es para efectos secundarios",
+      "useReducer centraliza lógica de actualización de estado compleja mediante un reducer",
+      "useReducer reemplaza completamente a useState",
+      "useReducer es solo para formularios"
+    ],
+    "answer": 1,
+    "explanation": "useReducer es útil cuando la lógica de estado es compleja o implica múltiples sub-valores; ofrece un patrón similar a Redux pero local."
+  },
+  {
+    "id": 218,
+    "type": "tf",
+    "topic": "React",
+    "question": "La prop key en listas ayuda a React a identificar elementos entre renders y mejorar la reconciliación.",
+    "answer": true,
+    "explanation": "Usar keys estables evita reordenamientos innecesarios y bugs al actualizar listas dinámicas."
+  },
+  {
+    "id": 219,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es una buena estrategia para dividir la UI y reducir el bundle inicial?",
+    "options": [
+      "Cargar todo en un solo archivo",
+      "Code-splitting y lazy loading de rutas/componentes",
+      "Eliminar dependencias",
+      "Usar muchos polyfills"
+    ],
+    "answer": 1,
+    "explanation": "Code-splitting y lazy loading permiten cargar solo lo necesario inicialmente y posponer lo demás, reduciendo el bundle inicial."
+  },
+  {
+    "id": 220,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para medir elementos en el DOM después de un render?",
+    "options": [
+      "useState",
+      "useLayoutEffect",
+      "useEffect",
+      "useMemo"
+    ],
+    "answer": 1,
+    "explanation": "useLayoutEffect se ejecuta antes de pintar, útil para medir el DOM y aplicar ajustes sin parpadeo visual."
+  },
+  {
+    "id": 221,
+    "type": "tf",
+    "topic": "React",
+    "question": "Poner componentes pesados dentro de render sin memoización puede producir caída de rendimiento por re-renders.",
+    "answer": true,
+    "explanation": "Componentes costosos deben optimizarse (memo, useMemo) para evitar recomputaciones innecesarias."
+  },
+  {
+    "id": 222,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué patrón ayuda a evitar prop drilling (pasar props profundamente)?",
+    "options": [
+      "Context API",
+      "Pasar props en todas partes",
+      "Usar variables globales en window",
+      "No renderizar componentes profundos"
+    ],
+    "answer": 0,
+    "explanation": "Context API permite compartir datos en el árbol de componentes sin pasar props manualmente por cada nivel."
+  },
+  {
+    "id": 223,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es la ventaja de usar keys únicas y estables en listas dinámicas?",
+    "options": [
+      "Acelerar CSS",
+      "Mejorar la reconciliación y evitar pérdidas de estado en elementos reordenados",
+      "Hacer el HTML más ligero",
+      "No tiene ventaja"
+    ],
+    "answer": 1,
+    "explanation": "Keys estables permiten a React asociar correctamente elementos previos con los nuevos evitando recreaciones innecesarias."
+  },
+  {
+    "id": 224,
+    "type": "tf",
+    "topic": "React",
+    "question": "Los efectos con array de dependencias vacío [] se ejecutan solo al montar y su limpieza al desmontar.",
+    "answer": true,
+    "explanation": "useEffect(..., []) se ejecuta una vez al montar; la función de limpieza (si existe) se ejecuta al desmontar."
+  },
+  {
+    "id": 225,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué técnica usarías para evitar pasar funciones inline directamente a componentes hijos que dependen críticamente de su identidad?",
+    "options": [
+      "useCallback para memoizar la función",
+      "No pasar funciones",
+      "Usar strings en lugar de funciones",
+      "No renderizar el hijo"
+    ],
+    "answer": 0,
+    "explanation": "useCallback estabiliza la referencia de la función entre renders, útil cuando el hijo hace comparaciones de referencia."
+  },
+  {
+    "id": 226,
+    "type": "tf",
+    "topic": "React",
+    "question": "Debes evitar mutar props o state directamente; en su lugar crear nuevas referencias para que React detecte cambios.",
+    "answer": true,
+    "explanation": "Mutar directamente impide que React detecte cambios correctamente; siempre crear nuevas referencias (inmutabilidad)."
+  },
+  {
+    "id": 227,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué técnica permite renderizar grandes listas de forma eficiente en la UI?",
+    "options": [
+      "Renderizar todo de golpe",
+      "Virtualization/windowing (p. ej. react-window)",
+      "Usar tablas",
+      "No usar listas largas"
+    ],
+    "answer": 1,
+    "explanation": "Virtualization renderiza solo los elementos visibles, mejorando rendimiento en listas largas."
+  },
+  {
+    "id": 228,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es el propósito de useImperativeHandle?",
+    "options": [
+      "Modificar props del padre",
+      "Exponer una interfaz imperativa a refs cuando se usa forwardRef",
+      "Reemplazar useRef",
+      "Crear efectos secundarios"
+    ],
+    "answer": 1,
+    "explanation": "useImperativeHandle se usa junto con forwardRef para controlar qué métodos/properties expone el componente a la referencia externa."
+  },
+  {
+    "id": 229,
+    "type": "tf",
+    "topic": "React",
+    "question": "Los componentes controlados mantienen el valor de inputs en el state de React y actualizan el DOM a través de props.",
+    "answer": true,
+    "explanation": "En componentes controlados, React tiene la fuente de la verdad (state) y el input refleja ese valor."
+  },
+  {
+    "id": 230,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué patrón es útil para manejar errores en la UI sin romper la app?",
+    "options": [
+      "try/catch en JSX",
+      "Error Boundaries (componentes que capturan errores de renderizado)",
+      "No capturar errores",
+      "Usar console.error siempre"
+    ],
+    "answer": 1,
+    "explanation": "Error boundaries capturan errores de render en componentes hijos y permiten mostrar UI de fallback sin romper toda la app."
+  },
+  {
+    "id": 231,
+    "type": "tf",
+    "topic": "React",
+    "question": "setState (o la función de actualización de useState) puede recibir una función que recibe el valor previo.",
+    "answer": true,
+    "explanation": "La forma funcional setState(prev => newVal) es útil cuando la actualización depende del valor previo."
+  },
+  {
+    "id": 232,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es una ventaja de usar useTransition en React concurrent mode?",
+    "options": [
+      "Forzar renders sincrónicos",
+      "Diferenciar updates urgentes de no urgentes para mejorar UX (mostrar placeholders)",
+      "Eliminar la necesidad de suspense",
+      "Aumentar la prioridad de todos los efectos"
+    ],
+    "answer": 1,
+    "explanation": "useTransition permite marcar actualizaciones de baja prioridad, evitando bloqueos en interacciones urgentes."
+  },
+  {
+    "id": 233,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hace Fragment (<></>)?",
+    "options": [
+      "Renderiza un div extra",
+      "Permite agrupar elementos sin añadir un nodo extra al DOM",
+      "Crea un snapshot",
+      "No tiene uso"
+    ],
+    "answer": 1,
+    "explanation": "Fragments permiten devolver múltiples elementos desde un componente sin introducir un wrapper en el DOM."
+  },
+  {
+    "id": 234,
+    "type": "tf",
+    "topic": "React",
+    "question": "useEffect con dependencias mal especificadas puede producir bucles infinitos de render.",
+    "answer": true,
+    "explanation": "Si las dependencias cambian en cada render o faltan dependencias requeridas, el efecto puede ejecutarse repetidamente causando bucles."
+  },
+  {
+    "id": 235,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hace React.lazy?",
+    "options": [
+      "Permite lazy-load de componentes mediante dynamic import",
+      "Convierte componentes a clase",
+      "Mejora rendimiento automáticamente",
+      "Reemplaza Suspense"
+    ],
+    "answer": 0,
+    "explanation": "React.lazy permite cargar componentes de forma diferida usando import() y combinándolo con Suspense para fallback."
+  },
+  {
+    "id": 236,
+    "type": "tf",
+    "topic": "React",
+    "question": "Al actualizar el state, React puede agrupar múltiples actualizaciones para optimizar renders.",
+    "answer": true,
+    "explanation": "React batchea actualizaciones en algunos contextos para reducir re-renders redundantes."
+  },
+  {
+    "id": 237,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para mantener el mismo valor entre renders pero que no dispare un re-render al cambiar?",
+    "options": [
+      "useState",
+      "useRef",
+      "useMemo",
+      "useEffect"
+    ],
+    "answer": 1,
+    "explanation": "useRef mantiene un valor mutable que persiste entre renders sin causar re-render al cambiar current."
+  },
+  {
+    "id": 238,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es la forma recomendada de pasar datos a través de muchos niveles de componentes?",
+    "options": [
+      "Props drilling",
+      "Context API o soluciones de estado global",
+      "Copiar datos en cada componente",
+      "Usar variables globales en window"
+    ],
+    "answer": 1,
+    "explanation": "Context API evita prop drilling y facilita compartir datos sin pasar props por cada nivel."
+  },
+  {
+    "id": 239,
+    "type": "tf",
+    "topic": "React",
+    "question": "React no actualiza el DOM si el árbol virtual resultante no cambia tras la reconciliación.",
+    "answer": true,
+    "explanation": "React compara el Virtual DOM y aplica solo las diferencias al DOM real."
+  },
+  {
+    "id": 240,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué enfoque usarías para administrar estado compartido entre muchas partes de la app?",
+    "options": [
+      "Mantener todo en componente raíz con props",
+      "Context API, o librerías como Redux/ Zustand según complejidad",
+      "Variables globales en window",
+      "Duplicar estado en cada componente"
+    ],
+    "answer": 1,
+    "explanation": "Context o librerías de estado ayudan a gestionar estado compartido; la elección depende de la escala y requisitos."
+  },
+  {
+    "id": 241,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es buena práctica limpiar suscripciones y timers en la función de limpieza devuelta por useEffect.",
+    "answer": true,
+    "explanation": "La limpieza previene memory leaks y comportamientos inesperados cuando el componente se desmonta o el efecto se re-ejecuta."
+  },
+  {
+    "id": 242,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué problema resuelve useLayoutEffect frente a useEffect?",
+    "options": [
+      "Nada, son idénticos",
+      "Se ejecuta antes de pintar y evita parpadeos al medir/modificar el DOM",
+      "Evita errores de runtime",
+      "Hace el render más lento intencionalmente"
+    ],
+    "answer": 1,
+    "explanation": "useLayoutEffect se ejecuta sincrónicamente después del render pero antes de la pintura, útil para lecturas/escrituras del DOM que requieren sincronía."
+  },
+  {
+    "id": 243,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué es un Higher-Order Component (HOC)?",
+    "options": [
+      "Un componente que recibe otro componente y devuelve uno nuevo con funcionalidades adicionales",
+      "Un hook incorporado en React",
+      "Un tipo de efecto",
+      "Un componente con más props"
+    ],
+    "answer": 0,
+    "explanation": "Un HOC es una función que toma un componente y retorna otro componente con comportamiento extendido."
+  },
+  {
+    "id": 244,
+    "type": "tf",
+    "topic": "React",
+    "question": "Para probar componentes React es común usar testing-library/react o Enzyme.",
+    "answer": true,
+    "explanation": "Testing-library y Enzyme son herramientas populares para testing de componentes; testing-library promueve pruebas centradas en el usuario."
+  },
+  {
+    "id": 245,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cómo puedes evitar que un efecto se ejecute en el primer render pero sí en siguientes?",
+    "options": [
+      "No es posible",
+      "Controlar con una bandera (useRef) que indique primer render",
+      "Usar useState para bloquear el efecto siempre",
+      "Poner el efecto dentro de un if(false)"
+    ],
+    "answer": 1,
+    "explanation": "Una técnica común es usar useRef para trackear si es el primer render y condicionar la ejecución del efecto."
+  },
+  {
+    "id": 246,
+    "type": "tf",
+    "topic": "React",
+    "question": "Puedes usar setState dentro de useEffect para actualizar estado basándote en props o resultados asíncronos.",
+    "answer": true,
+    "explanation": "Es común actualizar estado dentro de efectos (ej. tras fetch) usando la función de setState."
+  },
+  {
+    "id": 247,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es la forma correcta de acceder a un input DOM desde React para enfocar programáticamente?",
+    "options": [
+      "document.querySelector('#id').focus()",
+      "Usar useRef y ref en el input, luego inputRef.current.focus()",
+      "Pasar id al componente y usar window.getElementById",
+      "No es posible"
+    ],
+    "answer": 1,
+    "explanation": "useRef con ref en el input permite acceder al nodo DOM y llamar focus sin romper la abstracción de React."
+  },
+  {
+    "id": 248,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué ventaja trae el memoizing de valores (useMemo) en componentes con cálculos costosos?",
+    "options": [
+      "Reduce renders del componente",
+      "Evita recalcular valores costosos cuando las dependencias no cambian",
+      "Acelera la primera carga siempre",
+      "Hace el código más corto"
+    ],
+    "answer": 1,
+    "explanation": "useMemo evita ejecutar la función de cálculo si las dependencias no han cambiado, ahorrando trabajo computacional."
+  },
+  {
+    "id": 249,
+    "type": "tf",
+    "topic": "React",
+    "question": "El uso excesivo de context para todos los estados puede llevar a re-renders amplios si no se segmenta correctamente.",
+    "answer": true,
+    "explanation": "Context provoca re-renders en consumidores cuando su valor cambia; es recomendable segmentar context o usar selectores."
+  },
+  {
+    "id": 250,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué herramienta usarías para analizar rendimiento y ver por qué un componente renderiza?",
+    "options": [
+      "React DevTools Profiler",
+      "console.log exclusivamente",
+      "No hay herramientas",
+      "useEffectProfiler"
+    ],
+    "answer": 0,
+    "explanation": "React DevTools Profiler permite medir y visualizar renders y costos de rendimiento por componente."
+  },
+  {
+    "id": 251,
+    "type": "tf",
+    "topic": "React",
+    "question": "Al usar Suspense para data fetching es necesario que la librería de fetching soporte el patrón de Suspense.",
+    "answer": true,
+    "explanation": "Suspense para data fetching requiere librerías o wrappers que integren la API de Suspense (por ejemplo, React Cache o soluciones específicas)."
+  },
+  {
+    "id": 252,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué patrón ayuda a evitar efectos secundarios en la fase de render?",
+    "options": [
+      "Hacer fetch directamente en el body del componente",
+      "Usar useEffect para efectos y evitar side-effects durante el render",
+      "Llamar setState en el render",
+      "Manipular el DOM en el render"
+    ],
+    "answer": 1,
+    "explanation": "Los efectos secundarios deben ocurrir en useEffect/useLayoutEffect, no durante el render (función pura)."
+  },
+  {
+    "id": 253,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es la forma recomendada de actualizar un estado que depende del valor anterior?",
+    "options": [
+      "setCount(count + 1)",
+      "setCount(prev => prev + 1)",
+      "count = count + 1",
+      "useEffect para actualizarlo después"
+    ],
+    "answer": 1,
+    "explanation": "Usar la forma funcional garantiza que se use el valor más reciente incluso cuando las actualizaciones se encolan."
+  },
+  {
+    "id": 254,
+    "type": "tf",
+    "topic": "React",
+    "question": "React puede reutilizar componentes y DOM siempre que la clave y el tipo coincidan entre renders.",
+    "answer": true,
+    "explanation": "React usa la key y el tipo del elemento para decidir si puede reutilizar el DOM existente o necesita reemplazarlo."
+  },
+  {
+    "id": 255,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué técnica es útil para probar componentes que dependen de Context?",
+    "options": [
+      "No se pueden testear",
+      "Proveer un wrapper con el Provider en el render de prueba",
+      "Modificar el código fuente para quitar context",
+      "Usar localStorage como mock"
+    ],
+    "answer": 1,
+    "explanation": "En tests, envolver el componente con el Provider correspondiente y pasar valores de test permite verificar comportamiento con context."
+  },
+  {
+    "id": 256,
+    "type": "tf",
+    "topic": "React",
+    "question": "React 18 introdujo mejoras relacionadas con concurrent rendering y nuevas APIs como startTransition.",
+    "answer": true,
+    "explanation": "React 18 añadió capacidades concurrent y APIs para gestionar prioridades, como startTransition y useTransition."
+  },
+  {
+    "id": 257,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es un síntoma de rerender innecesario en React?",
+    "options": [
+      "La app funciona correctamente",
+      "Componentes hijos se renderizan muchas veces aunque sus props no cambien",
+      "El CSS no aplica",
+      "Los tests pasan"
+    ],
+    "answer": 1,
+    "explanation": "Rerenders innecesarios se detectan cuando componentes se actualizan sin cambios visibles en props o estado, afectando rendimiento."
+  },
+  {
+    "id": 258,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hace forwardRef?",
+    "options": [
+      "Envía refs desde componentes padres a elementos DOM en componentes hijos",
+      "Crea ref nueva cada render",
+      "Remueve refs",
+      "No existe"
+    ],
+    "answer": 0,
+    "explanation": "forwardRef permite que un componente acepte una ref y la pase a un elemento hijo (por ejemplo, input) para acceso externo."
+  },
+  {
+    "id": 259,
+    "type": "tf",
+    "topic": "React",
+    "question": "El orden de hooks importa: cambiar su orden entre renders puede romper la aplicación.",
+    "answer": true,
+    "explanation": "Las reglas de hooks dependen de que los hooks se llamen en el mismo orden cada render para mapear internamente sus estados."
+  },
+  {
+    "id": 260,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué librería es popular para manejar formularios en React con buen rendimiento?",
+    "options": [
+      "jQuery",
+      "React Hook Form",
+      "Lodash",
+      "Moment.js"
+    ],
+    "answer": 1,
+    "explanation": "React Hook Form es conocida por su rendimiento y enfoque basado en registros, evitando re-renders excesivos."
+  },
+  {
+    "id": 261,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es recomendable evitar pasar objetos/arrays inline a dependencias de useEffect sin memoización.",
+    "answer": true,
+    "explanation": "Crear objetos inline provoca que la dependencia cambie por referencia, re-ejecutando el efecto; useMemo o constantes ayudan."
+  },
+  {
+    "id": 262,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué ventaja trae usar keys basadas en ID único en lugar del índice de iteración?",
+    "options": [
+      "Menos código",
+      "Evitar pérdida de estado y comportamiento errático cuando la lista se reordena o modifica",
+      "Mejor compatibilidad con navegadores viejos",
+      "No hay ventaja"
+    ],
+    "answer": 1,
+    "explanation": "Usar índices como keys causa problemas cuando se insertan/eliminan elementos; IDs únicos mantienen la identidad entre renders."
+  },
+  {
+    "id": 263,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para memoizar un componente completo y evitar render innecesario por props inmutables?",
+    "options": [
+      "useState",
+      "React.memo",
+      "useEffect",
+      "useRef"
+    ],
+    "answer": 1,
+    "explanation": "React.memo envuelve componentes funcionales para memorizar su render en base a props (shallow compare por defecto)."
+  },
+  {
+    "id": 264,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es válido retornar null desde el render de un componente para no renderizar nada.",
+    "answer": true,
+    "explanation": "Retornar null es válido y no produce salida en el DOM para ese componente."
+  },
+  {
+    "id": 265,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué estrategia usarías para cargar datos en una página que necesita SEO y SSR?",
+    "options": [
+      "CSR (client-side only)",
+      "Server-Side Rendering o Static Generation (Next.js) con data fetching en servidor",
+      "No cargar datos",
+      "Usar only localStorage"
+    ],
+    "answer": 1,
+    "explanation": "SSR o SSG permiten que los motores vean contenido renderizado en servidor, mejorando SEO y tiempo hasta contenido visible."
+  },
+  {
+    "id": 266,
+    "type": "tf",
+    "topic": "React",
+    "question": "Los efectos deben limpiar timers y suscripciones para evitar memory leaks.",
+    "answer": true,
+    "explanation": "Limpiar recursos en la función de retorno de useEffect evita que sigan activos tras desmontar el componente."
+  },
+  {
+    "id": 267,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hace useId en React 18+?",
+    "options": [
+      "Genera IDs únicos estables para accesibilidad y evitar colisiones entre el servidor y cliente",
+      "Es un alias de useRef",
+      "Reemplaza useState",
+      "Crea una clase CSS"
+    ],
+    "answer": 0,
+    "explanation": "useId genera identificadores únicos para elementos, útiles para asociar labels e inputs y evitar problemas SSR/CSR."
+  },
+  {
+    "id": 268,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es un motivo común para preferir componentes funcionales sobre clases hoy?",
+    "options": [
+      "No soportan lifecycle",
+      "Hooks permiten lógica más concisa y composición reutilizable",
+      "No se pueden testear",
+      "Son más lentas"
+    ],
+    "answer": 1,
+    "explanation": "Los hooks facilitan composición y manejo de estado/efectos en componentes funcionales, promoviendo código más simple y reutilizable."
+  },
+  {
+    "id": 269,
+    "type": "tf",
+    "topic": "React",
+    "question": "Puedes combinar useReducer con context para tener un patrón similar a Redux sin librería externa.",
+    "answer": true,
+    "explanation": "useReducer + Context es patrón común para manejar estado global con dispatch y reducer centralizado."
+  },
+  {
+    "id": 270,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué comando usarías para crear una app React con Vite rápidamente?",
+    "options": [
+      "npx create-react-app my-app",
+      "npm create vite@latest my-app -- --template react",
+      "git clone react",
+      "npm init react"
+    ],
+    "answer": 1,
+    "explanation": "Vite se inicializa comúnmente con npm create vite@latest y la plantilla react para proyectos modernos y rápidos."
+  },
+  {
+    "id": 271,
+    "type": "tf",
+    "topic": "React",
+    "question": "React DevTools permite inspeccionar el árbol de componentes y sus props/state.",
+    "answer": true,
+    "explanation": "React DevTools es esencial para depuración y análisis del estado y rendimiento en aplicaciones React."
+  },
+  {
+    "id": 272,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué opción elegirías para compartir lógica sin cambiar la jerarquía de componentes?",
+    "options": [
+      "HOC, render props o custom hooks (preferido hoy)",
+      "Copiar código en todos lados",
+      "Usar global variables",
+      "No es posible"
+    ],
+    "answer": 0,
+    "explanation": "Render props, HOCs y custom hooks son patrones para compartir lógica; custom hooks son la forma más moderna."
+  },
+  {
+    "id": 273,
+    "type": "tf",
+    "topic": "React",
+    "question": "useEffect puede devolver una función de limpieza que se ejecuta antes del siguiente efecto y al desmontar.",
+    "answer": true,
+    "explanation": "La función retornada sirve para limpiar recursos y se llama antes de la siguiente ejecución del efecto y al desmontar."
+  },
+  {
+    "id": 274,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué técnica usarías para medir el tiempo hasta la interacción (TTI) en una app React?",
+    "options": [
+      "Usar performance API y medir eventos de interacción",
+      "Usar console.time unicamente",
+      "Medir con alert()",
+      "No es medible"
+    ],
+    "answer": 0,
+    "explanation": "La Performance API junto con métricas y observadores permiten medir TTI y otras métricas de experiencia."
+  },
+  {
+    "id": 275,
+    "type": "tf",
+    "topic": "React",
+    "question": "React.memo con función de comparación personalizada permite optimizar condiciones complexas de re-render.",
+    "answer": true,
+    "explanation": "Al pasar una función areEqual, React.memo puede usar lógica personalizada para determinar si re-renderizar."
+  },
+  {
+    "id": 276,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es una buena forma de estructurar carpetas para componentes reutilizables?",
+    "options": [
+      "components/ui, components/layout, components/features",
+      "Poner todo en src/ sin organización",
+      "Una carpeta por cada letra del alfabeto",
+      "No estructurar"
+    ],
+    "answer": 0,
+    "explanation": "Organizar por responsabilidad (ui, layout, features) facilita mantenimiento y reuso."
+  },
+  {
+    "id": 277,
+    "type": "tf",
+    "topic": "React",
+    "question": "Cuando se usa server-side rendering, es importante serializar y rehidratar correctamente el estado para evitar desajustes (hydration mismatch).",
+    "answer": true,
+    "explanation": "Hydration mismatch ocurre si el HTML server-rendered no coincide con el render cliente; sincronizar datos previene errores."
+  },
+  {
+    "id": 278,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué librería ligera es popular para manejar estado global en React sin mucha boilerplate?",
+    "options": [
+      "Redux",
+      "Zustand",
+      "jQuery",
+      "Backbone"
+    ],
+    "answer": 1,
+    "explanation": "Zustand es conocida por su API simple y ligereza comparada con Redux en casos menos complejos."
+  },
+  {
+    "id": 279,
+    "type": "tf",
+    "topic": "React",
+    "question": "useEffect se ejecuta después del render y de la pintura por defecto.",
+    "answer": true,
+    "explanation": "useEffect corre después de que el navegador ha pintado, por lo que no bloquea la pintura inicial."
+  },
+  {
+    "id": 280,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué herramienta usarías para generar snapshots y pruebas de componentes?",
+    "options": [
+      "Jest con react-test-renderer o testing-library",
+      "console.log",
+      "npm test-alone",
+      "No se testean componentes"
+    ],
+    "answer": 0,
+    "explanation": "Jest combinado con testing-library o react-test-renderer facilita pruebas unitarias y snapshots de componentes."
+  },
+  {
+    "id": 281,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es importante evitar efectos que dependan de funciones recreadas en cada render a menos que estén memoizadas.",
+    "answer": true,
+    "explanation": "Funciones inline cambian referencia y pueden causar re-ejecución de efectos; useCallback las estabiliza."
+  },
+  {
+    "id": 282,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué patrón ayuda al rendimiento en listas con muchos elementos dinámicos?",
+    "options": [
+      "Renderizar todos los elementos",
+      "Pagination o virtualization (windowing)",
+      "Duplicar elementos",
+      "Usar images en lugar de texto"
+    ],
+    "answer": 1,
+    "explanation": "Pagination o virtualization reduce la cantidad de elementos renderizados a los visibles, mejorando rendimiento."
+  },
+  {
+    "id": 283,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para memorizar cálculos intensivos solo cuando las dependencias cambian?",
+    "options": [
+      "useEffect",
+      "useMemo",
+      "useRef",
+      "useState"
+    ],
+    "answer": 1,
+    "explanation": "useMemo memoriza valores retornados de un cálculo pesado hasta que las dependencias cambien."
+  },
+  {
+    "id": 284,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es recomendable mantener componentes pequeños y con una única responsabilidad para facilitar testing y reuso.",
+    "answer": true,
+    "explanation": "Componentes pequeños son más mantenibles, testeables y reutilizables."
+  },
+  {
+    "id": 285,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es un síntoma de memory leak en una app React?",
+    "options": [
+      "La app responde rápido siempre",
+      "Consumo de memoria crece con el tiempo y no baja tras navegar/desmontar componentes",
+      "Los estilos no aplican",
+      "No hay manera de detectar"
+    ],
+    "answer": 1,
+    "explanation": "Memory leaks se detectan por crecimiento constante en uso de memoria, típicamente por no limpiar suscripciones o timers."
+  },
+  {
+    "id": 286,
+    "type": "tf",
+    "topic": "React",
+    "question": "El re-render de un componente padre provocará render de sus hijos a menos que se actúe con memoización o pure components.",
+    "answer": true,
+    "explanation": "Por defecto, React re-renderiza hijos cuando el padre renderiza; memo y optimizaciones evitan renders innecesarios."
+  },
+  {
+    "id": 287,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es la ventaja de usar Suspense + lazy para componentes no críticos?",
+    "options": [
+      "Mejorar time-to-interactive al diferir carga de código",
+      "Evitar testing",
+      "Hacer la app más grande",
+      "Eliminar la necesidad de bundlers"
+    ],
+    "answer": 0,
+    "explanation": "Lazy loading difiere la carga de componentes no críticos, mejorando el rendimiento percibido y reduciendo bundle inicial."
+  },
+  {
+    "id": 288,
+    "type": "tf",
+    "topic": "React",
+    "question": "forwardRef permite que componentes funcionales expongan refs a elementos internos.",
+    "answer": true,
+    "explanation": "forwardRef es útil cuando un componente actúa como wrapper y necesita pasar la ref al elemento interno."
+  },
+  {
+    "id": 289,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué técnica usarías para evitar recalcular derivados complejos en cada render sin usar useMemo?",
+    "options": [
+      "Calcular en cada render igualmente",
+      "Extraer la lógica fuera del componente o calcular solo cuando cambian inputs (memoización manual)",
+      "Usar setTimeout",
+      "No hay alternativa"
+    ],
+    "answer": 1,
+    "explanation": "Se puede extraer lógica a utilitarios puros y memoizar resultados fuera o arriba en la jerarquía para evitar recomputaciones frecuentes."
+  },
+  {
+    "id": 290,
+    "type": "tf",
+    "topic": "React",
+    "question": "Las props deben tratarse como inmutables dentro del componente que las recibe.",
+    "answer": true,
+    "explanation": "Modificar props directamente rompe el flujo unidireccional y puede causar inconsistencias; en su lugar clonar o derivar estado local."
+  },
+  {
+    "id": 291,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para crear un contador que persista entre renders sin causar rerender al actualizarlo?",
+    "options": [
+      "useState",
+      "useRef",
+      "useReducer",
+      "useMemo"
+    ],
+    "answer": 1,
+    "explanation": "useRef mantiene un valor mutable (.current) que persiste entre renders sin disparar re-renders."
+  },
+  {
+    "id": 292,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué patrón es útil para manejar side-effects de datos y estado en aplicaciones grandes?",
+    "options": [
+      "Centralizar side-effects en hooks personalizados o en middleware (sagas/thunks)",
+      "Hacer fetch en cada componente sin estructura",
+      "Usar solo localStorage",
+      "Evitar side-effects"
+    ],
+    "answer": 0,
+    "explanation": "Centralizar lógica en hooks/custom hooks o middleware facilita mantenimiento y separación de responsabilidades."
+  },
+  {
+    "id": 293,
+    "type": "tf",
+    "topic": "React",
+    "question": "Las pruebas unitarias deben centrarse en comportamiento observable, no en la implementación interna.",
+    "answer": true,
+    "explanation": "Testing-library promueve pruebas desde la perspectiva del usuario; evita acoplar tests a detalles internos."
+  },
+  {
+    "id": 294,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué estrategia usarías para mejorar el time-to-first-byte (TTFB) en una app React SSR?",
+    "options": [
+      "Optimizar servidor, usar caching y reducir trabajo de renderizado en servidor",
+      "Aumentar tamaño del bundle",
+      "Eliminar caché",
+      "Usar más efectos en cliente"
+    ],
+    "answer": 0,
+    "explanation": "Optimizar server, usar caching y minimizar trabajo durante SSR reduce TTFB."
+  },
+  {
+    "id": 295,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es válido componer múltiples providers (Contexts) para separar responsabilidades de estado.",
+    "answer": true,
+    "explanation": "Componer providers es común para separar contextos (auth, theme, i18n, etc.)."
+  },
+  {
+    "id": 296,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué indicador usarías para medir experiencia real del usuario en producción?",
+    "options": [
+      "FPS en desarrollo",
+      "Core Web Vitals (LCP, FID/INP, CLS)",
+      "Número de líneas de código",
+      "Tamaño del package.json"
+    ],
+    "answer": 1,
+    "explanation": "Core Web Vitals capturan métricas clave de experiencia como Largest Contentful Paint, First Input Delay / Interaction to Next Paint y Cumulative Layout Shift."
+  },
+  {
+    "id": 297,
+    "type": "tf",
+    "topic": "React",
+    "question": "El render props es un patrón para compartir código entre componentes usando una función como child.",
+    "answer": true,
+    "explanation": "Render props pasa una función que retorna JSX para compartir lógica entre componentes."
+  },
+  {
+    "id": 298,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué herramienta brinda Next.js para generación estática y server-side rendering fácil?",
+    "options": [
+      "create-react-app",
+      "getStaticProps / getServerSideProps",
+      "react-router",
+      "redux"
+    ],
+    "answer": 1,
+    "explanation": "Next.js ofrece funciones como getStaticProps y getServerSideProps para SSG y SSR respectivamente."
+  },
+  {
+    "id": 299,
+    "type": "tf",
+    "topic": "React",
+    "question": "El estado derivado (derived state) debe calcularse cuando sea posible en render en lugar de almacenarse en state.",
+    "answer": true,
+    "explanation": "Mantener mínimo estado y derivar valores en render reduce inconsistencias y la necesidad de sincronización."
+  },
+  {
+    "id": 300,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué práctica ayuda a mantener componentes accesibles?",
+    "options": [
+      "Ignorar roles ARIA",
+      "Usar etiquetas semánticas, labels, roles ARIA apropiados y tests de accesibilidad",
+      "Solo usar colores claros",
+      "Evitar pruebas de accesibilidad"
+    ],
+    "answer": 1,
+    "explanation": "Accesibilidad requiere uso de marcado semántico, atributos ARIA cuando necesario, labels adecuados y pruebas (axe, Lighthouse) para asegurar una buena experiencia para todos."
+  },
+  {
+    "id": 301,
+    "type": "tf",
+    "topic": "React",
+    "question": "No es necesario usar useEffect para sincronizar props con estado si el valor puede derivarse directamente en render.",
+    "answer": true,
+    "explanation": "Evitar estado derivado innecesario reduce bugs y elimina la necesidad de sincronización con useEffect."
+  },
+  {
+    "id": 302,
+    "type": "tf",
+    "topic": "React",
+    "question": "useRef provoca un re-render cuando cambia su valor.",
+    "answer": false,
+    "explanation": "useRef mantiene un valor persistente entre renders sin provocar re-render del componente."
+  },
+  {
+    "id": 303,
+    "type": "tf",
+    "topic": "React",
+    "question": "Un efecto con un array de dependencias vacío se ejecuta solo una vez al montar el componente.",
+    "answer": true,
+    "explanation": "Con [], el efecto se ejecuta al mount. En modo Strict puede ejecutarse dos veces en desarrollo, pero no en producción."
+  },
+  {
+    "id": 304,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es el propósito principal de useEffect?",
+    "options": [
+      "Actualizar el JSX",
+      "Ejecutar lógica síncrona en render",
+      "Manejar efectos secundarios como llamadas a APIs o suscripciones",
+      "Reemplazar useState"
+    ],
+    "answer": 2,
+    "explanation": "useEffect se utiliza para manejar efectos secundarios fuera del render, como fetch, localStorage o suscripciones."
+  },
+  {
+    "id": 305,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es una buena razón para usar useCallback?",
+    "options": [
+      "Guardar valores que no cambian",
+      "Evitar recrear funciones entre renders cuando se pasan como props",
+      "Reemplazar funciones normales",
+      "Hacer llamadas HTTP"
+    ],
+    "answer": 1,
+    "explanation": "useCallback memoriza funciones y evita renders innecesarios en componentes hijos."
+  },
+  {
+    "id": 306,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es recomendable usar index como key cuando renderizamos listas dinámicas.",
+    "answer": false,
+    "explanation": "Usar index como key puede causar errores de UI cuando el orden de la lista cambia."
+  },
+  {
+    "id": 307,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es el problema principal de usar estado derivado innecesario?",
+    "options": [
+      "Hace el código más corto",
+      "Mejora el rendimiento",
+      "Puede causar inconsistencias y bugs difíciles de detectar",
+      "Evita renders"
+    ],
+    "answer": 2,
+    "explanation": "Duplicar información en state puede provocar que los valores se desincronicen."
+  },
+  {
+    "id": 308,
+    "type": "tf",
+    "topic": "React",
+    "question": "Los custom hooks pueden usar otros hooks internos.",
+    "answer": true,
+    "explanation": "Un custom hook es una función que encapsula lógica y puede usar cualquier hook válido."
+  },
+  {
+    "id": 309,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué ventaja principal tiene dividir lógica en custom hooks?",
+    "options": [
+      "Hace el proyecto más grande",
+      "Mejora la reutilización y la legibilidad del código",
+      "Reduce la necesidad de componentes",
+      "Evita usar props"
+    ],
+    "answer": 1,
+    "explanation": "Los custom hooks permiten separar responsabilidades y reutilizar lógica de forma clara."
+  },
+  {
+    "id": 310,
+    "type": "tf",
+    "topic": "React",
+    "question": "Es válido llamar hooks dentro de condicionales si la condición no cambia.",
+    "answer": false,
+    "explanation": "Los hooks deben llamarse siempre en el mismo orden para evitar errores en el árbol de hooks."
+  },
+  {
+    "id": 311,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál de estas opciones describe mejor el render en React?",
+    "options": [
+      "Ejecuta efectos secundarios",
+      "Debe ser puro y sin efectos secundarios",
+      "Es un lugar para llamadas a APIs",
+      "Solo se ejecuta una vez"
+    ],
+    "answer": 1,
+    "explanation": "El render debe ser puro: mismo input → mismo output, sin efectos secundarios."
+  },
+  {
+    "id": 312,
+    "type": "tf",
+    "topic": "React",
+    "question": "useMemo debe usarse en todos los cálculos para mejorar el rendimiento.",
+    "answer": false,
+    "explanation": "useMemo solo es útil en cálculos costosos o cuando evita renders innecesarios."
+  },
+  {
+    "id": 313,
+    "type": "tf",
+    "topic": "React",
+    "question": "useState puede recibir una función como valor inicial para evitar cálculos costosos en cada render.",
+    "answer": true,
+    "explanation": "La inicialización lazy de useState ejecuta la función solo una vez al montar el componente."
+  },
+  {
+    "id": 314,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuándo conviene usar la forma funcional de setState?",
+    "options": [
+      "Cuando el estado es un string",
+      "Cuando el nuevo estado depende del estado anterior",
+      "Cuando el componente no se re-renderiza",
+      "Nunca"
+    ],
+    "answer": 1,
+    "explanation": "La forma funcional evita problemas con valores de estado desactualizados."
+  },
+  {
+    "id": 315,
+    "type": "tf",
+    "topic": "React",
+    "question": "Llamar a setState dentro de un render provoca un loop infinito.",
+    "answer": true,
+    "explanation": "Modificar el estado durante el render provoca renders infinitos."
+  },
+  {
+    "id": 316,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué ocurre si se omite una dependencia en el array de useEffect?",
+    "options": [
+      "Nada, React lo maneja automáticamente",
+      "El efecto se ejecuta más veces",
+      "Puede usar valores obsoletos (stale values)",
+      "Provoca un error de compilación"
+    ],
+    "answer": 2,
+    "explanation": "Omitir dependencias puede causar bugs difíciles de detectar."
+  },
+  {
+    "id": 317,
+    "type": "tf",
+    "topic": "React",
+    "question": "useEffect puede devolver una función de cleanup.",
+    "answer": true,
+    "explanation": "El cleanup se ejecuta antes del próximo efecto o al desmontar el componente."
+  },
+  {
+    "id": 318,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es un uso correcto de la función de cleanup en useEffect?",
+    "options": [
+      "Renderizar JSX",
+      "Cancelar timers, suscripciones o listeners",
+      "Actualizar el estado",
+      "Llamar hooks"
+    ],
+    "answer": 1,
+    "explanation": "El cleanup evita memory leaks y efectos duplicados."
+  },
+  {
+    "id": 319,
+    "type": "tf",
+    "topic": "React",
+    "question": "useRef es adecuado para almacenar valores mutables que no afectan la UI.",
+    "answer": true,
+    "explanation": "useRef es ideal para timers, flags y referencias a DOM."
+  },
+  {
+    "id": 320,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuál es una diferencia clave entre useRef y useState?",
+    "options": [
+      "useRef causa re-render, useState no",
+      "useState es síncrono",
+      "Cambiar useRef no provoca re-render",
+      "useRef solo funciona con DOM"
+    ],
+    "answer": 2,
+    "explanation": "Modificar ref.current no vuelve a renderizar el componente."
+  },
+  {
+    "id": 321,
+    "type": "tf",
+    "topic": "React",
+    "question": "useMemo memoriza el resultado de una función.",
+    "answer": true,
+    "explanation": "useMemo evita recalcular valores costosos entre renders."
+  },
+  {
+    "id": 322,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Cuándo NO tiene sentido usar useMemo?",
+    "options": [
+      "Cuando el cálculo es costoso",
+      "Cuando el valor se usa como dependencia",
+      "Cuando el cálculo es trivial",
+      "Cuando se evita un render innecesario"
+    ],
+    "answer": 2,
+    "explanation": "useMemo tiene un costo; usarlo en cálculos simples es innecesario."
+  },
+  {
+    "id": 323,
+    "type": "tf",
+    "topic": "React",
+    "question": "useCallback es equivalente a useMemo pero para funciones.",
+    "answer": true,
+    "explanation": "useCallback memoriza funciones, evitando recrearlas en cada render."
+  },
+  {
+    "id": 324,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué problema resuelve principalmente useCallback?",
+    "options": [
+      "Evitar efectos secundarios",
+      "Evitar recrear funciones que se pasan como props",
+      "Reemplazar useEffect",
+      "Evitar el uso de props"
+    ],
+    "answer": 1,
+    "explanation": "Es útil cuando funciones causan renders innecesarios en hijos."
+  },
+  {
+    "id": 325,
+    "type": "tf",
+    "topic": "React",
+    "question": "Los hooks deben llamarse siempre en el mismo orden.",
+    "answer": true,
+    "explanation": "React depende del orden de ejecución para asociar el estado correctamente."
+  },
+  {
+    "id": 326,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Dónde es válido llamar hooks?",
+    "options": [
+      "Dentro de loops",
+      "Dentro de condicionales",
+      "En funciones normales",
+      "En componentes o custom hooks"
+    ],
+    "answer": 3,
+    "explanation": "Los hooks solo pueden usarse en componentes o custom hooks."
+  },
+  {
+    "id": 327,
+    "type": "tf",
+    "topic": "React",
+    "question": "Un custom hook puede devolver cualquier tipo de valor.",
+    "answer": true,
+    "explanation": "Puede devolver objetos, arrays o funciones según la necesidad."
+  },
+  {
+    "id": 328,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué problema aparece si se rompe la regla de hooks?",
+    "options": [
+      "Error de sintaxis",
+      "Error visual leve",
+      "Comportamiento impredecible del estado",
+      "Solo un warning"
+    ],
+    "answer": 2,
+    "explanation": "Romper las reglas provoca bugs difíciles de depurar."
+  },
+  {
+    "id": 329,
+    "type": "tf",
+    "topic": "React",
+    "question": "Separar lógica en custom hooks mejora la reutilización y el testeo.",
+    "answer": true,
+    "explanation": "Permite componentes más simples y lógica reutilizable."
+  },
+  {
+    "id": 330,
+    "type": "mcq",
+    "topic": "React",
+    "question": "¿Qué hook usarías para almacenar un valor que debe persistir entre renders sin afectar la UI?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "useMemo"
+    ],
+    "answer": 2,
+    "explanation": "useRef mantiene valores persistentes sin causar re-render."
+  }
+]
