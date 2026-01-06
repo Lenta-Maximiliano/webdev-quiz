@@ -3898,5 +3898,920 @@
     ],
     "answer": 2,
     "explanation": "useRef mantiene valores persistentes sin causar re-render."
+  },
+  {
+    "id": 331,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Vite",
+    "question": "¿Qué es Vite?",
+    "options": [
+      "Un framework de JavaScript",
+      "Un bundler tradicional como Webpack",
+      "Una herramienta de desarrollo que ofrece un servidor rápido y build optimizado",
+      "Una librería exclusiva de React"
+    ],
+    "answer": 2,
+    "explanation": "Vite es una herramienta de desarrollo frontend que aprovecha ES Modules para lograr un arranque casi instantáneo."
+  },
+  {
+    "id": 332,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Vite",
+    "question": "Vite utiliza ES Modules nativos del navegador durante el desarrollo.",
+    "answer": true,
+    "explanation": "Durante el desarrollo, Vite sirve módulos ES directamente sin bundlear todo el proyecto."
+  },
+  {
+    "id": 333,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "DOM",
+    "question": "¿Qué es el DOM (Document Object Model)?",
+    "options": [
+      "Una base de datos del navegador",
+      "Una representación en árbol del documento HTML",
+      "Un motor de JavaScript",
+      "Una API exclusiva de React"
+    ],
+    "answer": 1,
+    "explanation": "El DOM representa el HTML como un árbol de nodos que JavaScript puede manipular."
+  },
+  {
+    "id": 334,
+    "type": "boolean",
+    "topic": "JavaScript",
+    "subtopic": "DOM",
+    "question": "Modificar el DOM directamente puede afectar el rendimiento de una aplicación web.",
+    "answer": true,
+    "explanation": "Las manipulaciones directas del DOM son costosas; por eso React usa un modelo optimizado."
+  },
+  {
+    "id": 335,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Core",
+    "question": "¿Qué es React?",
+    "options": [
+      "Un framework completo",
+      "Una librería para construir interfaces de usuario",
+      "Un lenguaje de programación",
+      "Un motor de renderizado del navegador"
+    ],
+    "answer": 1,
+    "explanation": "React es una librería de JavaScript orientada a la creación de interfaces basadas en componentes."
+  },
+  {
+    "id": 336,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Core",
+    "question": "React se basa en componentes para separar responsabilidades dentro de la aplicación.",
+    "answer": true,
+    "explanation": "La arquitectura por componentes favorece la separación de responsabilidades."
+  },
+  {
+    "id": 337,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "StrictMode",
+    "question": "¿Para qué sirve React StrictMode?",
+    "options": [
+      "Mejorar el rendimiento en producción",
+      "Detectar problemas potenciales y malas prácticas",
+      "Gestionar el estado global",
+      "Crear rutas protegidas"
+    ],
+    "answer": 1,
+    "explanation": "StrictMode ayuda a detectar efectos secundarios y prácticas inseguras durante el desarrollo."
+  },
+  {
+    "id": 338,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "StrictMode",
+    "question": "React StrictMode se ejecuta también en producción.",
+    "answer": false,
+    "explanation": "StrictMode solo afecta al entorno de desarrollo."
+  },
+  {
+    "id": 339,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Rendering",
+    "question": "¿Qué función cumple createRoot en React 18?",
+    "options": [
+      "Inicializar el estado global",
+      "Habilitar el renderizado concurrente",
+      "Reemplazar React Router",
+      "Crear componentes dinámicos"
+    ],
+    "answer": 1,
+    "explanation": "createRoot habilita las nuevas capacidades de renderizado de React 18."
+  },
+  {
+    "id": 340,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Rendering",
+    "question": "createRoot reemplaza a ReactDOM.render en React 18.",
+    "answer": true,
+    "explanation": "Desde React 18, createRoot es la API recomendada."
+  },
+  {
+    "id": 341,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Router",
+    "question": "¿Qué permite BrowserRouter en React Router?",
+    "options": [
+      "Gestionar estilos",
+      "Implementar routing del lado del cliente usando la History API",
+      "Optimizar renders",
+      "Manejar estado global"
+    ],
+    "answer": 1,
+    "explanation": "BrowserRouter maneja la navegación sin recargar la página."
+  },
+  {
+    "id": 342,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Router",
+    "question": "BrowserRouter es un ejemplo de routing moderno del lado del cliente.",
+    "answer": true,
+    "explanation": "El routing moderno evita recargas completas."
+  },
+  {
+    "id": 343,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Context",
+    "question": "¿Para qué se utiliza el Context API en React?",
+    "options": [
+      "Para manejar rutas",
+      "Para evitar el prop drilling y compartir estado global",
+      "Para acceder al DOM",
+      "Para manejar efectos"
+    ],
+    "answer": 1,
+    "explanation": "Context permite compartir datos sin pasar props manualmente."
+  },
+  {
+    "id": 344,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Context",
+    "question": "Un Provider mal ubicado puede provocar que componentes no accedan al contexto.",
+    "answer": true,
+    "explanation": "El Provider debe envolver correctamente a los consumidores."
+  },
+  {
+    "id": 345,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Architecture",
+    "question": "¿Cuál es la función principal de App.jsx?",
+    "options": [
+      "Conectar con la base de datos",
+      "Definir la estructura principal y el routing",
+      "Gestionar solo el estado global",
+      "Renderizar estilos"
+    ],
+    "answer": 1,
+    "explanation": "App.jsx actúa como componente raíz de la aplicación."
+  },
+  {
+    "id": 346,
+    "type": "mcq",
+    "topic": "CSS",
+    "subtopic": "Tailwind",
+    "question": "¿Qué hace la clase flex-1 en Tailwind CSS?",
+    "options": [
+      "Define grid",
+      "Ocupa todo el ancho",
+      "Permite que el elemento crezca y ocupe el espacio disponible",
+      "Centra contenido"
+    ],
+    "answer": 2,
+    "explanation": "flex-1 aplica flex-grow: 1."
+  },
+  {
+    "id": 347,
+    "type": "boolean",
+    "topic": "CSS",
+    "subtopic": "Tailwind",
+    "question": "flex-1 solo funciona dentro de un contenedor flex.",
+    "answer": true,
+    "explanation": "La propiedad flex-grow requiere un contenedor flex."
+  },
+  {
+    "id": 348,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Performance",
+    "question": "¿Qué es el lazy loading en React?",
+    "options": [
+      "Cargar todo al inicio",
+      "Cargar componentes solo cuando se necesitan",
+      "Optimizar CSS",
+      "Reducir el DOM"
+    ],
+    "answer": 1,
+    "explanation": "Lazy loading mejora el rendimiento y la escalabilidad."
+  },
+  {
+    "id": 349,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Performance",
+    "question": "El lazy loading reduce el tamaño del bundle inicial.",
+    "answer": true,
+    "explanation": "Esto mejora los tiempos de carga."
+  },
+  {
+    "id": 350,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Architecture",
+    "question": "Separar rutas públicas y privadas es una buena práctica de diseño escalable.",
+    "answer": true,
+    "explanation": "Mejora organización, seguridad y mantenimiento."
+  },
+  {
+    "id": 351,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Auth Context",
+    "question": "¿Para qué se utiliza un contexto global de autenticación en React?",
+    "options": [
+      "Para manejar estilos globales",
+      "Para compartir el estado de autenticación entre componentes",
+      "Para reemplazar React Router",
+      "Para acceder al DOM"
+    ],
+    "answer": 1,
+    "explanation": "Un contexto de autenticación permite acceder al usuario logueado y su estado desde cualquier parte de la aplicación."
+  },
+  {
+    "id": 352,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "Auth Context",
+    "question": "Usar Context para autenticación evita el prop drilling.",
+    "answer": true,
+    "explanation": "El Context API permite compartir datos globales sin pasar props manualmente."
+  },
+  {
+    "id": 353,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué hace onAuthStateChanged en Firebase?",
+    "options": [
+      "Crea un usuario nuevo",
+      "Escucha cambios en el estado de autenticación",
+      "Actualiza el perfil del usuario",
+      "Cierra la sesión"
+    ],
+    "answer": 1,
+    "explanation": "onAuthStateChanged registra un listener que se ejecuta cuando cambia el estado de login del usuario."
+  },
+  {
+    "id": 354,
+    "type": "boolean",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "onAuthStateChanged es un listener reactivo.",
+    "answer": true,
+    "explanation": "Se ejecuta automáticamente ante cambios de autenticación."
+  },
+  {
+    "id": 355,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "useEffect",
+    "question": "¿Para qué se utiliza useEffect en React?",
+    "options": [
+      "Para renderizar JSX",
+      "Para manejar efectos secundarios",
+      "Para crear componentes",
+      "Para definir rutas"
+    ],
+    "answer": 1,
+    "explanation": "useEffect permite ejecutar lógica luego del render, como fetch de datos o listeners."
+  },
+  {
+    "id": 356,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "useEffect",
+    "question": "¿Qué representa el array de dependencias de useEffect?",
+    "options": [
+      "Estados globales",
+      "Variables que disparan la ejecución del efecto",
+      "Props obligatorias",
+      "Hooks internos"
+    ],
+    "answer": 1,
+    "explanation": "El efecto se vuelve a ejecutar cuando alguna dependencia cambia."
+  },
+  {
+    "id": 357,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "useEffect",
+    "question": "Un useEffect sin array de dependencias se ejecuta en cada render.",
+    "answer": true,
+    "explanation": "Sin dependencias, el efecto corre siempre."
+  },
+  {
+    "id": 358,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "useCallback",
+    "question": "¿Para qué sirve useCallback?",
+    "options": [
+      "Memorizar valores",
+      "Memorizar funciones",
+      "Crear efectos secundarios",
+      "Renderizar componentes"
+    ],
+    "answer": 1,
+    "explanation": "useCallback evita recrear funciones innecesariamente."
+  },
+  {
+    "id": 359,
+    "type": "boolean",
+    "topic": "React",
+    "subtopic": "useCallback",
+    "question": "useCallback es útil cuando se pasan funciones como props.",
+    "answer": true,
+    "explanation": "Evita renders innecesarios en componentes hijos."
+  },
+  {
+    "id": 360,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Performance",
+    "question": "¿Cuál es el objetivo principal de optimizar renders?",
+    "options": [
+      "Reducir el tamaño del DOM",
+      "Evitar renders innecesarios",
+      "Mejorar SEO",
+      "Eliminar estados"
+    ],
+    "answer": 1,
+    "explanation": "Optimizar renders mejora el rendimiento general de la aplicación."
+  },
+  {
+    "id": 361,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué representa auth = getAuth(app)?",
+    "options": [
+      "La base de datos",
+      "La instancia de autenticación de Firebase",
+      "El usuario actual",
+      "Un provider de contexto"
+    ],
+    "answer": 1,
+    "explanation": "getAuth(app) inicializa el servicio de autenticación."
+  },
+  {
+    "id": 362,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Para qué se utiliza signOut?",
+    "options": [
+      "Registrar usuarios",
+      "Cerrar sesión",
+      "Actualizar perfil",
+      "Eliminar cuenta"
+    ],
+    "answer": 1,
+    "explanation": "signOut cierra la sesión del usuario actual."
+  },
+  {
+    "id": 363,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué hace signInWithEmailAndPassword?",
+    "options": [
+      "Crea un usuario nuevo",
+      "Inicia sesión con email y contraseña",
+      "Actualiza el email",
+      "Valida tokens"
+    ],
+    "answer": 1,
+    "explanation": "Permite autenticar un usuario existente."
+  },
+  {
+    "id": 364,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué hace createUserWithEmailAndPassword?",
+    "options": [
+      "Inicia sesión",
+      "Crea un usuario nuevo",
+      "Actualiza el perfil",
+      "Cierra sesión"
+    ],
+    "answer": 1,
+    "explanation": "Registra un nuevo usuario en Firebase Auth."
+  },
+  {
+    "id": 365,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Para qué sirve updateProfile?",
+    "options": [
+      "Actualizar contraseña",
+      "Modificar datos del perfil del usuario",
+      "Eliminar el usuario",
+      "Actualizar reglas"
+    ],
+    "answer": 1,
+    "explanation": "updateProfile permite modificar displayName o photoURL."
+  },
+  {
+    "id": 366,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Error Handling",
+    "question": "¿Por qué se utiliza throw err dentro de un catch?",
+    "options": [
+      "Para ocultar errores",
+      "Para detener la ejecución",
+      "Para propagar el error",
+      "Para renderizar mensajes"
+    ],
+    "answer": 2,
+    "explanation": "Permite que el error sea manejado en niveles superiores."
+  },
+  {
+    "id": 367,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "JSX",
+    "question": "¿Qué es JSX?",
+    "options": [
+      "HTML puro",
+      "Una extensión de JavaScript",
+      "Un lenguaje nuevo",
+      "Un template engine"
+    ],
+    "answer": 1,
+    "explanation": "JSX permite escribir UI con sintaxis similar a HTML dentro de JavaScript."
+  },
+  {
+    "id": 368,
+    "type": "mcq",
+    "topic": "HTML",
+    "subtopic": "Core",
+    "question": "¿Qué es HTML?",
+    "options": [
+      "Un lenguaje de estilos",
+      "Un lenguaje de marcado",
+      "Un framework",
+      "Una API"
+    ],
+    "answer": 1,
+    "explanation": "HTML define la estructura del contenido web."
+  },
+  {
+    "id": 369,
+    "type": "mcq",
+    "topic": "CSS",
+    "subtopic": "Core",
+    "question": "¿Cuál es la función principal de CSS?",
+    "options": [
+      "Manejar lógica",
+      "Estructurar contenido",
+      "Dar estilo a la interfaz",
+      "Gestionar datos"
+    ],
+    "answer": 2,
+    "explanation": "CSS define el diseño visual de la aplicación."
+  },
+  {
+    "id": 370,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Core",
+    "question": "¿Qué es JavaScript?",
+    "options": [
+      "Un lenguaje de marcado",
+      "Un lenguaje de programación",
+      "Una base de datos",
+      "Un framework"
+    ],
+    "answer": 1,
+    "explanation": "JavaScript aporta lógica e interactividad a la web."
+  },
+  {
+    "id": 371,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Redux",
+    "question": "¿Para qué se utiliza Redux?",
+    "options": [
+      "Estilos",
+      "Routing",
+      "Manejo de estado global",
+      "Autenticación"
+    ],
+    "answer": 2,
+    "explanation": "Redux centraliza el estado para aplicaciones complejas."
+  },
+  {
+    "id": 372,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firestore",
+    "question": "¿Qué es Firestore?",
+    "options": [
+      "Una base de datos relacional",
+      "Una base de datos NoSQL",
+      "Un sistema de archivos",
+      "Un servicio de hosting"
+    ],
+    "answer": 1,
+    "explanation": "Firestore es una base de datos NoSQL en tiempo real."
+  },
+  {
+    "id": 373,
+    "type": "mcq",
+    "topic": "CSS",
+    "subtopic": "Tailwind",
+    "question": "¿Qué es Tailwind CSS?",
+    "options": [
+      "Un framework de componentes",
+      "Un framework de utilidades",
+      "Un preprocesador",
+      "Un CMS"
+    ],
+    "answer": 1,
+    "explanation": "Tailwind ofrece clases utilitarias para estilos rápidos."
+  },
+  {
+    "id": 374,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Git",
+    "question": "¿Para qué se utiliza Git?",
+    "options": [
+      "Diseño UI",
+      "Control de versiones",
+      "Deploy",
+      "Testing"
+    ],
+    "answer": 1,
+    "explanation": "Git permite registrar y gestionar cambios en el código."
+  },
+  {
+    "id": 375,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "GitHub",
+    "question": "¿Qué es GitHub?",
+    "options": [
+      "Un lenguaje",
+      "Un repositorio local",
+      "Una plataforma de repositorios remotos",
+      "Un editor"
+    ],
+    "answer": 2,
+    "explanation": "GitHub aloja repositorios y facilita el trabajo colaborativo."
+  },
+  {
+    "id": 376,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "API",
+    "question": "¿Qué es una API?",
+    "options": [
+      "Una interfaz de usuario",
+      "Un contrato de comunicación entre sistemas",
+      "Una base de datos",
+      "Un framework"
+    ],
+    "answer": 1,
+    "explanation": "Las APIs permiten la comunicación entre aplicaciones."
+  },
+  {
+    "id": 377,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Core",
+    "question": "¿Qué hace initializeApp de firebase/app?",
+    "options": [
+      "Inicializa Firestore",
+      "Configura la conexión de la app con Firebase",
+      "Autentica usuarios",
+      "Inicializa Storage"
+    ],
+    "answer": 1,
+    "explanation": "initializeApp inicializa Firebase con la configuración del proyecto."
+  },
+  {
+    "id": 378,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Core",
+    "question": "¿Qué devuelve getAuth(app)?",
+    "options": [
+      "Un usuario",
+      "Una instancia de autenticación",
+      "Una promesa",
+      "Una base de datos"
+    ],
+    "answer": 1,
+    "explanation": "getAuth devuelve la instancia de Firebase Auth asociada a la app."
+  },
+  {
+    "id": 379,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Core",
+    "question": "¿Qué devuelve getFirestore?",
+    "options": [
+      "Un documento",
+      "Una instancia de Firestore",
+      "Un usuario autenticado",
+      "Una colección"
+    ],
+    "answer": 1,
+    "explanation": "getFirestore devuelve la instancia de la base de datos Firestore."
+  },
+  {
+    "id": 380,
+    "type": "vf",
+    "topic": "React",
+    "subtopic": "Auth Architecture",
+    "question": "Firebase es la fuente de la verdad del estado de autenticación.",
+    "answer": true,
+    "explanation": "Firebase controla el estado real; React solo lo escucha y refleja."
+  },
+  {
+    "id": 381,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Auth Architecture",
+    "question": "¿Cuál es el rol correcto de AuthContext?",
+    "options": [
+      "Autenticar usuarios",
+      "Escuchar Firebase y exponer el estado",
+      "Guardar usuarios en Firestore",
+      "Crear tokens"
+    ],
+    "answer": 1,
+    "explanation": "AuthContext escucha Firebase y expone el estado a la app."
+  },
+  {
+    "id": 382,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué hace onAuthStateChanged?",
+    "options": [
+      "Crea usuarios",
+      "Escucha cambios de autenticación",
+      "Actualiza Firestore",
+      "Cierra sesión"
+    ],
+    "answer": 1,
+    "explanation": "Es un listener reactivo que detecta cambios en el estado de auth."
+  },
+  {
+    "id": 383,
+    "type": "vf",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "updateProfile dispara onAuthStateChanged.",
+    "answer": false,
+    "explanation": "updateProfile no dispara el listener; se debe sincronizar manualmente."
+  },
+  {
+    "id": 384,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Auth Architecture",
+    "question": "¿Cómo se sincroniza el user luego de updateProfile?",
+    "options": [
+      "Volviendo a loguear",
+      "Usando setUser(auth.currentUser)",
+      "Refrescando la página",
+      "Creando un nuevo usuario"
+    ],
+    "answer": 1,
+    "explanation": "auth.currentUser permite sincronizar el estado manualmente."
+  },
+  {
+    "id": 385,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué hace signInWithEmailAndPassword?",
+    "options": [
+      "Registra un usuario",
+      "Inicia sesión",
+      "Cierra sesión",
+      "Actualiza perfil"
+    ],
+    "answer": 1,
+    "explanation": "Inicia sesión con email y contraseña."
+  },
+  {
+    "id": 386,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firebase Auth",
+    "question": "¿Qué hace createUserWithEmailAndPassword?",
+    "options": [
+      "Inicia sesión",
+      "Crea un usuario",
+      "Actualiza datos",
+      "Borra cuenta"
+    ],
+    "answer": 1,
+    "explanation": "Registra un nuevo usuario en Firebase Auth."
+  },
+  {
+    "id": 387,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Error Handling",
+    "question": "¿Por qué usar throw err dentro de un catch?",
+    "options": [
+      "Para evitar errores",
+      "Para propagar el error",
+      "Para detener Firebase",
+      "Para limpiar memoria"
+    ],
+    "answer": 1,
+    "explanation": "Permite que capas superiores manejen el error."
+  },
+  {
+    "id": 388,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Hooks",
+    "question": "¿Cuándo es obligatorio usar useCallback?",
+    "options": [
+      "Siempre",
+      "Cuando se pasa una función a componentes memorizados",
+      "En cada render",
+      "Con estados simples"
+    ],
+    "answer": 1,
+    "explanation": "Evita renders innecesarios por recreación de funciones."
+  },
+  {
+    "id": 389,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Hooks",
+    "question": "¿Qué memoriza useMemo?",
+    "options": [
+      "Funciones",
+      "Valores calculados",
+      "Componentes",
+      "Estados"
+    ],
+    "answer": 1,
+    "explanation": "useMemo memoriza resultados de cálculos costosos."
+  },
+  {
+    "id": 390,
+    "type": "vf",
+    "topic": "React",
+    "subtopic": "Hooks",
+    "question": "useEffect depende de su array de dependencias.",
+    "answer": true,
+    "explanation": "Las dependencias controlan cuándo se ejecuta el efecto."
+  },
+  {
+    "id": 391,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Routing",
+    "question": "¿Cuándo usar { replace: true } en navigate?",
+    "options": [
+      "Para volver atrás",
+      "Para evitar historial innecesario",
+      "Para refrescar",
+      "Para recargar"
+    ],
+    "answer": 1,
+    "explanation": "Reemplaza la entrada actual del historial."
+  },
+  {
+    "id": 392,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "Routing",
+    "question": "¿Cuál es la diferencia entre Link y NavLink?",
+    "options": [
+      "NavLink aplica estilos activos",
+      "Link protege rutas",
+      "NavLink es imperativo",
+      "Link usa hooks"
+    ],
+    "answer": 0,
+    "explanation": "NavLink permite detectar la ruta activa."
+  },
+  {
+    "id": 393,
+    "type": "vf",
+    "topic": "React",
+    "subtopic": "Routing",
+    "question": "navigate() es navegación imperativa.",
+    "answer": true,
+    "explanation": "Se ejecuta por lógica, no por JSX."
+  },
+  {
+    "id": 394,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firestore",
+    "question": "¿Qué es uid en Firestore?",
+    "options": [
+      "Un token",
+      "Un identificador único del usuario",
+      "Una colección",
+      "Un documento"
+    ],
+    "answer": 1,
+    "explanation": "uid identifica de forma única al usuario."
+  },
+  {
+    "id": 395,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Firestore",
+    "question": "¿Para qué sirve merge: true en setDoc?",
+    "options": [
+      "Borrar datos",
+      "Sobrescribir todo",
+      "Actualizar parcialmente",
+      "Crear colección"
+    ],
+    "answer": 2,
+    "explanation": "merge true evita sobrescribir el documento completo."
+  },
+  {
+    "id": 396,
+    "type": "vf",
+    "topic": "JavaScript",
+    "subtopic": "Firestore",
+    "question": "La idempotencia evita efectos colaterales duplicados.",
+    "answer": true,
+    "explanation": "Una operación idempotente da el mismo resultado."
+  },
+  {
+    "id": 397,
+    "type": "mcq",
+    "topic": "JavaScript",
+    "subtopic": "Conceptos",
+    "question": "¿Qué es JSX?",
+    "options": [
+      "HTML",
+      "Extensión de JavaScript",
+      "CSS dinámico",
+      "Template engine"
+    ],
+    "answer": 1,
+    "explanation": "JSX permite escribir UI con sintaxis similar a HTML."
+  },
+  {
+    "id": 398,
+    "type": "vf",
+    "topic": "JavaScript",
+    "subtopic": "Conceptos",
+    "question": "localStorage persiste datos tras cerrar el navegador.",
+    "answer": true,
+    "explanation": "Los datos permanecen hasta ser eliminados."
+  },
+  {
+    "id": 399,
+    "type": "mcq",
+    "topic": "React",
+    "subtopic": "State",
+    "question": "¿Qué es lifting state up?",
+    "options": [
+      "Mover estado al padre",
+      "Eliminar estado",
+      "Crear contexto",
+      "Usar Redux"
+    ],
+    "answer": 0,
+    "explanation": "Permite compartir estado entre componentes."
   }
 ]
