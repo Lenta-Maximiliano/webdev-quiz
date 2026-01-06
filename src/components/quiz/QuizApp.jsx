@@ -6,26 +6,20 @@ import QuizCard from "./QuizCard";
 export default function QuizApp() {
   const [category, setCategory] = useState("all");
 
+  const CATEGORY_MAP = {
+    "html/css": ["html", "css", "html/css"],
+    javascript: ["javascript"],
+    react: ["react"],
+  };
+
   const filtered = useMemo(() => {
-    if (category === "all") return [...allQuestions];
-    if (category === "html/css") {
-      return allQuestions.filter(
-        (q) =>
-          String(q.topic).toLowerCase().includes("html") ||
-          String(q.topic).toLowerCase().includes("css")
-      );
-    }
-    if (category === "javascript") {
-      return allQuestions.filter(
-        (q) => String(q.topic).toLowerCase() === "javascript" || String(q.topic).toLowerCase().includes("javascript")
-      );
-    }
-    if (category === "react") {
-      return allQuestions.filter(
-        (q) => String(q.topic).toLowerCase() === "react"
-      );
-    }
-    return [...allQuestions];
+    if (category === "all") return allQuestions;
+
+    const allowedTopics = CATEGORY_MAP[category] ?? [];
+
+    return allQuestions.filter((q) =>
+      allowedTopics.includes(String(q.topic).toLowerCase())
+    );
   }, [category]);
 
   return (
@@ -36,7 +30,7 @@ export default function QuizApp() {
             WebDev Quiz
           </h1>
           <div className="text-sm text-gray-700 dark:text-gray-300">
-            Banco de preguntas: <strong>{allQuestions.length}</strong>
+            Banco de preguntas: <strong>{filtered.length}</strong>
           </div>
         </div>
 
