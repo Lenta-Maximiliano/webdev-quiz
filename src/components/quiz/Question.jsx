@@ -21,6 +21,7 @@ export default function Question({ question, onAnswer, answered, selected }) {
 
               return (
                 <label
+                  key={`${question.id}-${i}`}
                   className={`flex items-center p-3 rounded-lg border cursor-pointer
                     hover:bg-slate-50 
                     ${isCorrect
