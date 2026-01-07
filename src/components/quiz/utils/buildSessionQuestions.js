@@ -7,7 +7,7 @@ function shuffleArray(arr) {
   return a;
 }
 
-export const DEFAULT_SESSION_SIZE = 2;
+export const DEFAULT_SESSION_SIZE = 5;
 
 export function buildSessionQuestions(
   source = [],
