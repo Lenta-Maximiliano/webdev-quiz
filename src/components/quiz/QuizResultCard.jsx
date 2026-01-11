@@ -1,6 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 
+/**
+ * Muestra el resultado final del quiz y el estado de guardado del puntaje.
+ * No contiene lógica del quiz: solo presenta información y dispara acciones externas.
+ */
+
 export default function QuizResultCard({
   score,
   total,
@@ -13,40 +18,60 @@ export default function QuizResultCard({
   const { user } = useAuth();
 
   return (
-    <div className="bg-white dark:bg-slate-800 shadow-md rounded-lg p-6">
-      <h2 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">
-        ¡Quiz finalizado!
-      </h2>
+    <section
+      role="status"
+      aria-live="polite"
+      className="bg-white dark:bg-slate-800 shadow-md rounded-lg p-6"
+    >
+      <header>
+        <h2 className="text-xl font-semibold mb-3 text-gray-900 dark:text-gray-100">
+          ¡Quiz finalizado!
+        </h2>
 
-      <p className="mb-4 text-gray-700 dark:text-gray-200">
-        Obtuviste <strong>{score}</strong> de <strong>{total}</strong>.
-      </p>
+        <p className="mb-4 text-gray-700 dark:text-gray-200">
+          Obtuviste <strong>{score}</strong> de <strong>{total}</strong>.
+        </p>
+      </header>
 
+      {/*
+        Feedback del estado de persistencia del puntaje.
+        Estos estados provienen del hook useScorePersistence.
+      */}
       <div className="mb-4">
         {saving && (
-          <div className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600">
             Guardando tu puntaje...
-          </div>
+          </p>
         )}
 
         {!saving && saved && (
-          <div className="text-sm text-green-600">
+          <p className="text-sm text-green-600">
             Puntaje guardado en tu perfil.
-          </div>
+          </p>
         )}
 
         {!saving && error && (
-          <div className="text-sm text-rose-600">{error}</div>
+          <p className="text-sm text-rose-600">
+            {error}
+          </p>
         )}
 
+        {/*
+          Si el usuario no está autenticado, se informa que el puntaje
+          no puede persistirse aún.
+        */}
         {!saving && !error && !saved && !user && (
-          <div className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             Si ingresás ahora, tu puntaje se guardará en tu perfil.
-          </div>
+          </p>
         )}
       </div>
 
       <div className="flex flex-col gap-3">
+        {/*
+          Reinicia la sesión del quiz.
+          La lógica concreta queda delegada al componente padre.
+        */}
         <button
           onClick={onRestart}
           className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 hover:cursor-pointer w-full"
@@ -54,7 +79,11 @@ export default function QuizResultCard({
           Volver a jugar
         </button>
 
-        {!user &&
+        {/*
+          Redirección a login conservando la ruta actual
+          para volver automáticamente luego de autenticarse.
+        */}
+        {!user && (
           <button
             onClick={() =>
               navigate(
@@ -67,8 +96,8 @@ export default function QuizResultCard({
           >
             Ingresar para guardar mi puntaje
           </button>
-        }
+        )}
       </div>
-    </div>
+    </section>
   );
 }

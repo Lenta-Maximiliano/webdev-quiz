@@ -2,18 +2,24 @@ export default function Question({ question, onAnswer, answered, selected }) {
   const isMCQ = question.type === "mcq";
 
   return (
-    <div className="w-full max-w-3xl mx-auto bg-white dark:bg-slate-800 shadow-md rounded-lg p-6">
+    <section className="w-full max-w-3xl mx-auto bg-white dark:bg-slate-800 shadow-md rounded-lg p-6">
+      {/* Tema / categoría */}
       <div className="mb-3 text-sm text-gray-500 dark:text-gray-300">
         {question.topic}
       </div>
 
+      {/* Enunciado */}
       <h2 className="break-words text-lg sm:text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
         {question.id}. {question.question}
       </h2>
 
       <div className="space-y-3">
         {isMCQ ? (
-          <form>
+          <fieldset >
+            <legend className="sr-only">
+              Opciones de respuesta
+            </legend>
+
             {question.options.map((opt, i) => {
               const isSelected = selected === i;
               const isCorrect = answered && i === question.answer;
@@ -55,7 +61,7 @@ export default function Question({ question, onAnswer, answered, selected }) {
                 </label>
               );
             })}
-          </form>
+          </fieldset>
         ) : (
           <div className="flex gap-3">
             {/** True / False buttons */}
@@ -118,11 +124,12 @@ export default function Question({ question, onAnswer, answered, selected }) {
         )}
       </div>
 
+      {/* Explicación */}
       {answered && question.explanation && (
         <div className="mt-4 p-3 bg-gray-50 dark:bg-slate-700 rounded border border-gray-200 dark:border-slate-600 text-gray-700 dark:text-gray-200">
           <strong>Explicación:</strong> <span className="block mt-1">{question.explanation}</span>
         </div>
       )}
-    </div>
+    </section>
   );
 }

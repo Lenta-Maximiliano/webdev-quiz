@@ -114,9 +114,7 @@ src/
 ```
 
 ## Futuras mejoras
- 
-- Que si el usuario juega una partida con un número de preguntas igual o mayor a 5 y responde todas de forma correcta, aparezca un evento con "fuegos artificiales" en la pantalla.
-- Que el usuario tenga la posibilidad de elegir jugar con un timer de 15 segundos por pregunta, con un contador visual, en caso de terminar el tiempo, se marque en verde la respuesta que hubiera sido correcta, con la explicacion, pero que el score no sume puntos
+
 - Migrar el banco de preguntas desde `questions.json` a Firestore o una API externa.
 
 ## Autor
