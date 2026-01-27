@@ -21,10 +21,19 @@ export default function RegisterPage() {
       navigate("/", { replace: true });
     } catch (err) {
       const code = err?.code || err?.message || "";
-      if (code.includes("weak-password")) setError("La contraseña es demasiado corta (mín. 6 caracteres).");
-      else if (code.includes("email-already-in-use")) setError("El email ya está en uso.");
-      else if (code.includes("invalid-email")) setError("Email inválido.");
-      else setError("Error al registrarse. Reintentá.");
+
+      if (code === "auth/weak-password-custom") {
+        setError(
+          "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número."
+        );
+      } else if (code.includes("email-already-in-use")) {
+        setError("El email ya está en uso.");
+      } else if (code.includes("invalid-email")) {
+        setError("Email inválido.");
+      } else {
+        setError("Error al registrarse. Reintentá.");
+      }
+      
     } finally {
       setLoading(false);
     }
@@ -48,7 +57,7 @@ export default function RegisterPage() {
 
           <div>
             <label className="text-sm block mb-1">Contraseña</label>
-            <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" required minLength={6} className="w-full px-3 py-2 rounded border border-gray-300 hover:border-gray-400" />
+            <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" required className="w-full px-3 py-2 rounded border border-gray-300 hover:border-gray-400" />
           </div>
 
           {error && <div className="text-sm text-red-600">{error}</div>}
