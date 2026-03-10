@@ -1,6 +1,7 @@
 export default function TimerSelector({ value, onChange }) {
   return (
-    <div className="mb-6 flex items-center gap-3">
+    <fieldset className="mb-6 flex items-center gap-3">
+      <legend className="sr-only">Cantidad de preguntas</legend>
       <label 
         htmlFor="timer-mode"
         className="text-sm text-gray-700 dark:text-gray-300"
@@ -17,6 +18,6 @@ export default function TimerSelector({ value, onChange }) {
         <option value="no-timer">Sin timer</option>
         <option value="timer">Con timer (15s por pregunta)</option>
       </select>
-    </div>
+    </fieldset>
   );
 }

@@ -9,7 +9,6 @@ export default function CategorySelector({ value, onChange }) {
   return (
     <fieldset className="mb-6 flex items-center gap-3">
       <legend className="sr-only">Selección de categoría</legend>
-      
       <label
         htmlFor="category" 
         className="text-sm text-gray-700 dark:text-gray-300"

@@ -1,36 +1,34 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function QuestionTimer({
-  active,
   questionIndex,
   onTimeEnd,
-  duration = 15,
+  duration = 15
 }) {
   const [timeLeft, setTimeLeft] = useState(duration);
+  const intervalRef = useRef(null);
 
   // Reset del timer cuando cambia la pregunta
   useEffect(() => {
-    if (!active) return;
     setTimeLeft(duration);
-  }, [questionIndex, active]);
+  }, [questionIndex, duration]);
 
-  // Maneja el countdown del timer mientras esté activo.
-  // Al llegar a 0, notifica al componente padre.
+  // Interval estable
   useEffect(() => {
-    if (!active) return;
-    if (timeLeft <= 0) {
-      onTimeEnd?.();
-      return;
-    }
-
-    const interval = setInterval(() => {
+    intervalRef.current = setInterval(() => {
       setTimeLeft((t) => t - 1);
     }, 1000);
 
-    return () => clearInterval(interval);
-  }, [timeLeft, active]);
+    return () => clearInterval(intervalRef.current);
+  }, [questionIndex]);
 
-  if (!active) return null;
+  // Detectar fin del tiempo
+  useEffect(() => {
+    if (timeLeft <= 0) {
+      clearInterval(intervalRef.current);
+      onTimeEnd?.();
+    }
+  }, [timeLeft]);
 
   const percentage = (timeLeft / duration) * 100;
 

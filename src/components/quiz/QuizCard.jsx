@@ -16,7 +16,7 @@ import QuestionTimer from "./QuestionTimer";
  *
  * Este componente NO contiene lógica de negocio del quiz,
  * esa responsabilidad vive en useQuizSession.
- */
+*/
 
 export default function QuizCard({
   questions: incomingQuestions = [],
@@ -88,9 +88,9 @@ export default function QuizCard({
         <>
           {useTimer && !answered &&(
             <QuestionTimer
-              active
               questionIndex={index}
               onTimeEnd={timeoutQuestion}
+              duration={15}
             />
           )}
 
@@ -125,10 +125,8 @@ export default function QuizCard({
           saving={saving}
           saved={saved}
           error={error}
-          onRestart={() => {
-            restartQuiz();
-            onExit?.();
-          }}
+          onRestart={() => { restartQuiz() }}
+          onExit={() => { onExit?.() }}
         />
       )}
     </section>

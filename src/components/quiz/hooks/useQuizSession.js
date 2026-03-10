@@ -36,20 +36,6 @@ export function useQuizSession(
   const [finished, setFinished] = useState(false);
   const [timedOut, setTimedOut] = useState(false);
 
-  // Reinicia completamente la sesión cuando cambian:
-  // - la categoría
-  // - la cantidad de preguntas
-  // - el banco de preguntas
-  useEffect(() => {
-    setQuestions(buildSessionQuestions(incomingQuestions, resolvedSize));
-    setIndex(0);
-    setScore(0);
-    setSelected(null);
-    setAnswered(false);
-    setFinished(false);
-    setTimedOut(false);
-  }, [incomingQuestions, resolvedSize]);
-
   // Al avanzar de pregunta se limpian los estados de interacción
   useEffect(() => {
     setSelected(null);
@@ -89,7 +75,7 @@ export function useQuizSession(
   // Avanza a la siguiente pregunta o finaliza la sesión
   function nextQuestion() {
     if (index + 1 < questions.length) {
-      setIndex((i) => i + 1);
+      setIndex((prev) => prev + 1);
     } else {
       setFinished(true);
     }

@@ -13,6 +13,7 @@ export default function QuizResultCard({
   saved,
   error,
   onRestart,
+  onExit
 }) {
   const navigate = useNavigate();
   const { user } = useAuth();
@@ -69,14 +70,20 @@ export default function QuizResultCard({
 
       <div className="flex flex-col gap-3">
         {/*
-          Reinicia la sesión del quiz.
-          La lógica concreta queda delegada al componente padre.
+          Reinicia la sesión del quiz con la misma configuración.
         */}
         <button
           onClick={onRestart}
           className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 hover:cursor-pointer w-full"
         >
           Volver a jugar
+        </button>
+
+        <button
+          onClick={onExit}
+          className="text-sm w-full px-2 py-2 border border-gray-300 rounded hover:cursor-pointer hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:border-gray-600"
+        >
+          Cambiar configuracion de partida
         </button>
 
         {/*
