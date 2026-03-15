@@ -6,8 +6,6 @@
  * - Mantener el usuario autenticado actual
  * - Exponer helpers de login / registro / logout
  * - Centralizar loading y errores de autenticación
- *
- * Este provider debe envolver toda la app.
  */
 
 import { createContext, useContext, useEffect, useState, useCallback, useMemo } from "react";
@@ -91,7 +89,7 @@ export function AuthProvider({ children }) {
       // Actualiza el displayName si fue provisto
       if (displayName) {
         await updateProfile(res.user, { displayName });
-        // Sincroniza el estado local con el usuario actualizado
+        // Sincroniza el estado local con el usuario actualizado 
         setUser(auth.currentUser);
       }
 

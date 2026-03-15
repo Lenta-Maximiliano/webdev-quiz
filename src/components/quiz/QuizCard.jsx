@@ -16,8 +16,10 @@ import QuestionTimer from "./QuestionTimer";
  *
  * Este componente NO contiene lógica de negocio del quiz,
  * esa responsabilidad vive en useQuizSession.
+ * 
+ * Tampoco implementa la persistencia directamente,
+ * delegándola a `useScorePersistence`.
 */
-
 export default function QuizCard({
   questions: incomingQuestions = [],
   category = "all",
@@ -25,9 +27,19 @@ export default function QuizCard({
   useTimer = true,
   onExit,
 }) {
+
+  /**
+   * Usuario autenticado (si existe).
+   * Se utiliza para decidir si se puede persistir el puntaje
+   * inmediatamente o si debe almacenarse temporalmente.
+   */
   const { user } = useAuth();
 
-  // Estado y acciones de la sesión de quiz
+  /**
+   * Estado y acciones de la sesión de quiz.
+   * Toda la lógica de navegación, puntaje y respuestas
+   * está encapsulada dentro de este hook.
+   */
   const {
     questions,
     currentQuestion,
@@ -42,7 +54,14 @@ export default function QuizCard({
     timeoutQuestion,
   } = useQuizSession(incomingQuestions, sessionSize);
 
-  // Maneja la persistencia del puntaje (Firebase / offline / retry)
+  /**
+   * Hook encargado de la persistencia del puntaje.
+   *
+   * Soporta:
+   * - guardado en Firestore
+   * - guardado temporal offline
+   * - reintento automático cuando el usuario se autentica
+   */
   const {
     persistScore,
     flushPending,
@@ -51,7 +70,12 @@ export default function QuizCard({
     error,
   } = useScorePersistence();
 
-  // Guarda el puntaje una vez que la sesión finaliza
+  /**
+   * Cuando la sesión finaliza, se intenta persistir el puntaje.
+   *
+   * Este efecto se ejecuta únicamente cuando `finished`
+   * cambia a true.
+   */
   useEffect(() => {
     if (!finished) return;
 
@@ -62,19 +86,27 @@ export default function QuizCard({
     });
   }, [finished]);
 
-  // Si el usuario inicia sesión luego de jugar,
-  // se intenta guardar cualquier puntaje pendiente
+  /**
+   * Si el usuario inicia sesión después de jugar,
+   * se intenta subir cualquier puntaje pendiente
+   * almacenado previamente en localStorage.
+   */
   useEffect(() => {
     flushPending();
   }, [user]);
 
-  // Estado vacío defensivo
+  /**
+   * Estado defensivo: si no hay preguntas disponibles
+   * se evita renderizar la sesión completa.
+   */
   if (!questions.length) {
     return <p className="p-6">No hay preguntas cargadas para esta categoría.</p>;
   }
 
   return (
     <section aria-live="polite">
+
+      {/* Header con progreso de la sesión */}
       <header className="flex justify-between items-center mb-6">
         <div className="text-sm text-gray-700 dark:text-gray-300">
           <p>
@@ -86,6 +118,7 @@ export default function QuizCard({
 
       {!finished ? (
         <>
+          {/* Timer por pregunta (si está habilitado) */}
           {useTimer && !answered &&(
             <QuestionTimer
               questionIndex={index}
@@ -94,6 +127,7 @@ export default function QuizCard({
             />
           )}
 
+          {/* Render de la pregunta actual */}
           <Question
             question={currentQuestion}
             onAnswer={(value) =>
@@ -103,6 +137,7 @@ export default function QuizCard({
             selected={selected}
           />
 
+          {/* Navegación entre preguntas */}
           <div className="mt-4 flex gap-3 justify-end">
             {answered ? (
               <button
@@ -119,6 +154,12 @@ export default function QuizCard({
           </div>
         </>
       ) : (
+        /**
+         * Pantalla de resultados una vez finalizada la sesión.
+         *
+         * También muestra el estado del guardado del puntaje
+         * (guardando / guardado / error).
+         */
         <QuizResultCard
           score={score}
           total={questions.length}
