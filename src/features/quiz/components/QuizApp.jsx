@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
-import allQuestions from "../../data/questions.json";
-import CategorySelector from "./selectors/CategorySelector";
-import QuestionAmountSelect from "./selectors/QuestionsAmountSelect";
-import TimerSelector from "./selectors/TimerSelector";
+import allQuestions from "../../../data/questions.json";
+import CategorySelector from "../selectors/CategorySelector";
+import QuestionAmountSelect from "../selectors/QuestionsAmountSelect";
+import TimerSelector from "../selectors/TimerSelector";
 import QuizCard from "./QuizCard";
 
 /**

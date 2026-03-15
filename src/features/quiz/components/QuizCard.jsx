@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { useAuth } from "../../context/AuthContext";
-import { useQuizSession } from "./hooks/useQuizSession";
-import { useScorePersistence } from "./hooks/useScorePersistence";
+import { useAuth } from "../../../context/AuthContext";
+import { useQuizSession } from "../hooks/useQuizSession";
+import { useScorePersistence } from "../hooks/useScorePersistence";
 import QuizResultCard from "./QuizResultCard";
 import Question from "./Question";
 import QuestionTimer from "./QuestionTimer";

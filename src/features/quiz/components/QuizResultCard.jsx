@@ -1,5 +1,5 @@
 import { useNavigate, useLocation } from "react-router-dom";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../../context/AuthContext";
 
 /**
  * Tarjeta de resultados del quiz.
@@ -128,9 +128,8 @@ export default function QuizResultCard({
         {!user && (
           <button
             onClick={() =>
-              
               (
-                `/login?from=${encodeURIComponent(currentPath)}`
+                navigate(`/login?from=${encodeURIComponent(currentPath)}`)
               )
             }
             className="text-sm w-full px-2 py-2 border border-gray-300 rounded hover:cursor-pointer hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:border-gray-600"

@@ -1,4 +1,4 @@
-import QuizApp from "../components/quiz/QuizApp";
+import QuizApp from "../features/quiz/components/QuizApp";
 
 export default function Home() {
   return (
